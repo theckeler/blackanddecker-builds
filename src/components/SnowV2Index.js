@@ -1,5 +1,5 @@
 import React from "react";
-import indexData from "../data/index.json";
+import indexData from "../data/snow-index.json";
 import "../scss/main.scss";
 import { ReactComponent as Logo } from "../images/x-series.svg";
 import { ReactComponent as Plus } from "../images/icon-plus.svg";
@@ -269,29 +269,32 @@ const App = () => {
                 <React.Fragment key={i}>
                   {block.row.map((block2, x) => {
                     let output = "";
+
+                    if (block2.logo) {
+                      output += `<div class="logo"><img src=${block2.logo} /></div>`;
+                    }
+
                     if (block2.img) {
-                      output += `<img src=${block2.img} />`;
+                      output += `<div class="img"><img src=${block2.img} /></div>`;
                     }
 
                     if (block2.copy) {
-                      //output += block2.copy;
-                      output += `<p>${block2.copy}</p>`;
+                      output += `<span>${block2.copy}</span>`;
                     }
 
                     if (block2.active === true) {
-                      output = "&bull;";
+                      output = '<span class="dash-bull">&bull;</span>';
                     } else if (block2.active === false) {
-                      output = "&ndash;";
+                      output = '<span class="dash-bull">&ndash;</span>';
                     }
                     return (
-                      <li className="flex p-3" key={x}>
-                        <div
-                          className="text-center"
-                          dangerouslySetInnerHTML={{
-                            __html: output,
-                          }}
-                        ></div>
-                      </li>
+                      <li
+                        className={`flex p-3 column-${x} row-${i}`}
+                        key={x}
+                        dangerouslySetInnerHTML={{
+                          __html: output,
+                        }}
+                      ></li>
                     );
                   })}
                 </React.Fragment>

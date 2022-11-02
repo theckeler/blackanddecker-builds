@@ -162,14 +162,17 @@
         "row": [
           { "copy": "Available Snow Blower Features", "sub": false },
           {
+            "logo": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/vd62a6d5ff2b6456afa431ebbfa9bf30e6b302ca2/snow-v2/logo-1x.svg",
             "img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/v939bc9acaff6adfd88f97d4f5008d7921824fb15/snow-v2/icon-snowfall-up-6.svg",
             "copy": "Light Snowfall Moderate Use"
           },
           {
+            "logo": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/vd62a6d5ff2b6456afa431ebbfa9bf30e6b302ca2/snow-v2/logo-1x.svg",
             "img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/v939bc9acaff6adfd88f97d4f5008d7921824fb15/snow-v2/icon-snowfall-up-18.svg",
             "copy": "Moderate Snowfall Moderate Use"
           },
           {
+            "logo": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/vd62a6d5ff2b6456afa431ebbfa9bf30e6b302ca2/snow-v2/logo-3x.svg",
             "img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/v939bc9acaff6adfd88f97d4f5008d7921824fb15/snow-v2/icon-snowfall-up-23.svg",
             "copy": "Heavy Snowfall Frequent Use"
           }

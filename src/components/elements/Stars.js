@@ -1,4 +1,4 @@
-import { ReactComponent as Star } from "../../images/icon-star.svg";
+//import { ReactComponent as Star } from "../../images/icon-star.svg";
 
 const Stars = ({ fill }) => {
   //   return (
