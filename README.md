@@ -1,10 +1,6 @@
-# PaaS Calculator
-
-Needs a big clean up of the code.
+# CC Builds:
 
 ## Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -15,13 +11,3 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm run build`
-
-## API:
-
-Register: https://www.eia.gov/opendata/register.php
-
-Place your key in .env.local like:
-
-### `REACT_APP_EIA_KEY=xxxxxxxxxxxxxxxxxxxxxxx`
-# cc-builds
-# cc-builds
