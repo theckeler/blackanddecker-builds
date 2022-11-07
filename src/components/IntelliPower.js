@@ -22,16 +22,16 @@ const App = () => {
      document.querySelector("#button-intellipower-faqs").classList.remove("active");
     document.querySelector("#button-efi-faqs").classList.add("active");
 
-    document.querySelector("#faqs-intellipower").classList.add("active");
-    document.querySelector("#faqs-efi").classList.remove("active");
+    document.querySelector("#faqs-intellipower").classList.remove("active");
+    document.querySelector("#faqs-efi").classList.add("active");
   };
 
   document.querySelector("#button-intellipower-faqs").onclick = () => {
     document.querySelector("#button-intellipower-faqs").classList.add("active");
     document.querySelector("#button-efi-faqs").classList.remove("active");
     
-    document.querySelector("#faqs-intellipower").classList.remove("active");
-    document.querySelector("#faqs-efi").classList.add("active");
+    document.querySelector("#faqs-intellipower").classList.add("active");
+    document.querySelector("#faqs-efi").classList.remove("active");
   };
 
   document.querySelector("#button-step-up").onclick = () => {
