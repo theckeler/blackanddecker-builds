@@ -6,7 +6,7 @@ import { ReactComponent as Plus } from "../images/icon-plus.svg";
 import { ReactComponent as Intellipower } from "../images/intellipower-logo.svg";
 import { ReactComponent as EFI } from "../images/efi-logo.svg";
 import Button from "./elements/Button";
-import Stars from "./elements/Stars";
+import QuoteBlock from "./elements/QuoteBlock";
 
 const App = () => {
   console.log(indexData);
@@ -117,31 +117,7 @@ const App = () => {
 
       <section className="section-5 quote">
         <div className="wrapper">
-          <div className="block bg-white clip-corner">
-            <ul className="row list-unstyled">
-              <li className="col col-12 col-sm-6 col-md-6 title">
-                <strong>{indexData.quote.title}</strong>
-              </li>
-              <li
-                className="col col-12 col-sm-6 col-md-6"
-                style={{ textAlign: "right" }}
-              >
-                <Stars fill="#FFC10F" />
-              </li>
-            </ul>
-            <p className="copy">{indexData.quote.copy}</p>
-            <ul className="row list-unstyled">
-              <li className="col col-sm-6 col-md-6 author">
-                <strong>{indexData.quote.name}</strong>
-              </li>
-              <li
-                className="col col-sm-6 col-md-6 unit"
-                dangerouslySetInnerHTML={{
-                  __html: indexData.quote.unit,
-                }}
-              ></li>
-            </ul>
-          </div>
+          <QuoteBlock quote={indexData.quote} addClass="bg-white clip-corner" />
         </div>
         <img src={indexData.quote.img} alt={indexData.quote.alt} />
       </section>

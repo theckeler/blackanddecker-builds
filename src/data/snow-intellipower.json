@@ -1,0 +1,197 @@
+{
+  "hero": {
+    "h1": "Cub Cadet<sup>®</sup> Engine Technology",
+    "copy": "Take on heavy, deep and wet snow with the Cub Cadet engine advantage. Available with IntelliPower™ and electronic fuel injection (EFI) engine technology, a Cub Cadet engine helps you get the job done."
+  },
+
+  "intellipower": {
+    "text": "Power that rises to the occasion."
+  },
+
+  "stats": {
+    "h2": "More available power<sup>*</sup>",
+    "copy": "<sup>*</sup>When compared to the same engine without IntelliPower<sup>™</sup> technology, improvements vary depending on engine models and specific operating conditions.",
+    "blocks": [
+      {
+        "line1": "18%",
+        "line2": "For 243cc<sup>*</sup>",
+        "line3": "IntelliPower<sup>™</sup> engine technology provides up to 18% more power for 243cc EGOV with a digital throttle control that consistently optimizes engine output.<sup>*</sup>"
+      },
+      {
+        "line1": "13%",
+        "line2": "For 272cc<sup>*</sup>",
+        "line3": "IntelliPower<sup>™</sup> engine technology provides up to 13% more power for 272cc EGOV with a digital throttle control that consistently optimizes engine output.<sup>*</sup>"
+      },
+      {
+        "line1": "12%",
+        "line2": "For 537cc<sup>*</sup>",
+        "line3": "IntelliPower<sup>™</sup> engine technology provides up to 12% more power for 357cc EGOV with a digital throttle control that consistently optimizes engine output.<sup>*</sup>"
+      }
+    ]
+  },
+
+  "consistent": {
+    "blocks": [
+      {
+        "title": "Consistent Power",
+        "copy": "Designed to deliver consistent power in conditions with heavy, deep and wet snow. "
+      },
+      {
+        "title": "Consistent Results",
+        "copy": "By digitally optimizing engine output to help provide a smooth and consistent experience in challenging conditions. "
+      }
+    ]
+  },
+
+  "howItWorks": {
+    "h2": "How IntelliPower<sup>™</sup> Works",
+    "blocks": [
+      {
+        "title": "PHASE 1",
+        "copy": "Your onboard computer senses challenging elements as your engine begins to bog down."
+      },
+      {
+        "title": "PHASE 2",
+        "copy": "Intellipower™ automatically increases engine RPMs, offering you more available power resulting in less bogging down when clearing heavy and wet snow.<sup>*</sup>"
+      }
+    ]
+  },
+
+  "quotes": {
+    "blocks": [
+      {
+        "title": "Cuts like butter",
+        "copy": "“This snow blower is a beast! We got a storm that dropped two feet of pure powder on us. The snow blower went through it like a hot knife through butter and no bogging at all!”",
+        "name": "NJsnowstorm New Jersey",
+        "unit": "2X® 30” EFI"
+      },
+      {
+        "title": "Starts with ease",
+        "copy": "“I’ve had lots of other equipment without an EFI and they are a nightmare to start. This snow blower starts with one pull every time.”",
+        "name": "MSDComp08022 East Fishkill, NY",
+        "unit": "2X® 30” EFI"
+      }
+    ]
+  },
+
+  "efi": {
+    "copy": "Cub Cadet electronic fuel-injected (EFI) engines set new standards in strength and power. EFI provides reliable starting, and IntelliPower™ technology offers more available power when you need it most.<sup>*</sup>",
+    "small": "*When compared to the same engine without IntelliPower™ technology, improvements vary depending on engine models and specific operating conditions",
+    "blocks": [
+      {
+        "title": "Easy to Start",
+        "copy": "Quick startups and no need to prime or choke, just turn the key to start."
+      },
+      {
+        "title": "Fuel Efficient",
+        "copy": "EFI uses up to 25% less fuel versus standard  carbureted engines, so fewer emissions or fuel-ups."
+      },
+      {
+        "title": "Easy Storage",
+        "copy": "Simple off-season storage by eliminating the need to drain the fuel tank."
+      }
+    ]
+  },
+
+  "efiBlock": {
+    "h2": "Electronic Fuel Injection (EFI) Takes on the Job",
+    "img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/ve1f3e6cb0cf2f950d44a96bbcdc4fbdabb979847/snow-v2/efi.jpg"
+  },
+
+  "learnMore": {
+    "h2": "Learn More about Cub Cadet IntelliPower<sup>™</sup> and EFI",
+    "blocks": [
+      {
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw26bee84c/images/product-line-browse/Main-Carousel/SnowBlow_PLB_31AH5GVO710_2X_30EFI_desktop_1015x630.jpg",
+        "title": "IntelliPower<sup>™</sup>",
+        "copy": "Quick visual article or pdf explaining initial setup, calibration, oil, seats steering wheel. Set operational expectations here.",
+        "button": {
+          "copy": "Learn more",
+          "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
+        }
+      },
+      {
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw26bee84c/images/product-line-browse/Main-Carousel/SnowBlow_PLB_31AH5GVO710_2X_30EFI_desktop_1015x630.jpg",
+        "title": "Electronic Fuel Injection",
+        "copy": "Quick visual article or pdf explaining initial setup, calibration, oil, seats steering wheel. Set operational expectations here.",
+        "button": {
+          "copy": "Learn more",
+          "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
+        }
+      }
+    ]
+  },
+
+  "viewMore": {
+    "h2": "View Cub Cadet Products with IntelliPower and EFI",
+    "blocks": [
+      {
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw26bee84c/images/product-line-browse/Main-Carousel/SnowBlow_PLB_31AH5GVO710_2X_30EFI_desktop_1015x630.jpg",
+        "title": "2X 26\" INTELLIPOWER™ Snow Blower",
+        "copy": "2X™ TWO-STAGE POWER",
+        "price": "From $1,299.00 MSRP",
+        "button": {
+          "copy": "Add to Cart",
+          "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
+        }
+      },
+      {
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw26bee84c/images/product-line-browse/Main-Carousel/SnowBlow_PLB_31AH5GVO710_2X_30EFI_desktop_1015x630.jpg",
+        "title": "2X 26\" INTELLIPOWER™ Snow Blower",
+        "copy": "2X™ TWO-STAGE POWER",
+        "price": "From $1,299.00 MSRP",
+        "button": {
+          "copy": "Add to Cart",
+          "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
+        }
+      },
+      {
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw26bee84c/images/product-line-browse/Main-Carousel/SnowBlow_PLB_31AH5GVO710_2X_30EFI_desktop_1015x630.jpg",
+        "title": "2X 26\" INTELLIPOWER™ Snow Blower",
+        "copy": "2X™ TWO-STAGE POWER",
+        "price": "From $1,299.00 MSRP",
+        "button": {
+          "copy": "Add to Cart",
+          "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
+        }
+      },
+      {
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw26bee84c/images/product-line-browse/Main-Carousel/SnowBlow_PLB_31AH5GVO710_2X_30EFI_desktop_1015x630.jpg",
+        "title": "2X 26\" INTELLIPOWER™ Snow Blower",
+        "copy": "2X™ TWO-STAGE POWER",
+        "price": "From $1,299.00 MSRP",
+        "button": {
+          "copy": "Add to Cart",
+          "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
+        }
+      }
+    ]
+  },
+
+  "faqs": [
+    {
+      "intellipower": [
+        {
+          "question": "intellipower question",
+          "answer": "intellipower answer"
+        },
+        {
+          "question": "Easy to Start",
+          "answer": "Quick startups and no need to prime or choke, just turn the key to start."
+        }
+      ]
+    },
+    {
+      "efi": [
+        {
+          "question": "efi question ",
+          "answer": "efi answer"
+        },
+        {
+          "question": "Easy to Start",
+          "answer": "Quick startups and no need to prime or choke, just turn the key to start."
+        }
+      ]
+    }
+  ]
+}
