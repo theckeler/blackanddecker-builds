@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import indexData from "../data/snow-index.json";
 import "../scss/main.scss";
 import { ReactComponent as Logo } from "../images/x-series.svg";
@@ -9,20 +9,44 @@ import Button from "./elements/Button";
 import QuoteBlock from "./elements/QuoteBlock";
 
 const App = () => {
-  console.log(indexData);
+  //console.log(indexData);
+  useEffect(() => {
+    document.querySelectorAll("#finder-script").forEach(function (elem) {
+      elem.remove();
+    });
+    const html = `
+<script type="text/javascript" id="finder-script">
+  (function(c,a,r,t,f,u,l)
+            {
+              ((c[u] =
+                c[u] ||
+                function () {
+                  (c[u].q = c[u].q || []).push(arguments);
+                }),
+              (l = a.createElement(r)),
+              (l.async = 1),
+              (l.id = u + "scr"),
+              (l.src = f),
+              a[t].appendChild(l))
+            }
+            )(window,document,"script","body","https://embed.cartfulsolutions.com/cub-cadet-finder/recommendation.min.js","cfl643");
+</script>`;
+    const scriptEl = document.createRange().createContextualFragment(html);
+    document.body.appendChild(scriptEl);
+  });
 
   return (
     <div className="snow-v2 snow-v2-index">
-      <section className="section-1 hero">
+      <section className="section-1 hero flex flex-column-reverse">
         <div className="wrapper">
           <div className="block bg-black clip-corner">
-            <Logo />
+            <Logo className="w-100" />
           </div>
         </div>
-        <img src={indexData.hero.img} alt={indexData.hero.alt} />
+        <img src={indexData.hero.img} alt={indexData.hero.alt} className="" />
       </section>
 
-      <section className="section-2 bg-black">
+      <section className="section-2 bg-black flex flex-column">
         <div className="pluses top">
           <Plus />
           <Plus />
@@ -55,7 +79,7 @@ const App = () => {
             <ul className="row list-unstyled">
               {indexData.lineup.blocks.map((block, i) => {
                 return (
-                  <li key={i} className="col col-12 col-sm-6 col-md-4">
+                  <li key={i} className="col col-12 col-sm-12 col-md-4">
                     <a href={block.url} className="unstyled link">
                       <img src={block.img} alt={block.alt} />
                       <strong className="title">{block.title}</strong>
@@ -66,7 +90,7 @@ const App = () => {
                           return (
                             <li
                               key={i}
-                              className="flex-column col col-12 col-sm-6 col-md-4 eng-for-blocks"
+                              className="flex-column col col-12 col-sm-12 col-md-4 eng-for-blocks"
                             >
                               <strong>{subblock.title}</strong>
                               <img src={subblock.img} alt="" className="icon" />
@@ -80,11 +104,7 @@ const App = () => {
                           );
                         })}
                       </ul>
-                      <Button
-                        addClass="bg-black"
-                        copy={block.button.copy}
-                        url={block.button.url}
-                      />
+                      <Button addClass="bg-black" copy={block.button.copy} />
                     </a>
                   </li>
                 );
@@ -95,27 +115,10 @@ const App = () => {
       </section>
 
       <section className="section-4 snow-picker">
-        <div id="product-finder-snow-blowers">
-          {/* <script>
-            (function(c,a,r,t,f,u,l)
-            {
-              ((c[u] =
-                c[u] ||
-                function () {
-                  (c[u].q = c[u].q || []).push(arguments);
-                }),
-              (l = a.createElement(r)),
-              (l.async = 1),
-              (l.id = u + "scr"),
-              (l.src = f),
-              a[t].appendChild(l))
-            }
-            )(window,document,"script","body","//embed.cartfulsolutions.com/cub-cadet-finder/recommendation.min.js","cfl643");
-          </script> */}
-        </div>
+        <div id="product-finder-snow-blowers"></div>
       </section>
 
-      <section className="section-5 quote">
+      <section className="section-5 quote flex flex-column-reverse">
         <div className="wrapper">
           <QuoteBlock quote={indexData.quote} addClass="bg-white clip-corner" />
         </div>
@@ -125,7 +128,7 @@ const App = () => {
       <section className="section-6">
         <div className="wrapper container">
           <ul className="row list-unstyled">
-            <li className="col-12 col-sm-6 col-md-6 p-1 flex">
+            <li className="col-12 col-sm-12 col-md-6 p-1 flex">
               <div className="bg-black clip-corner p-2 flex flex-column">
                 <div className="logo intellipower p-6">
                   <Intellipower />
@@ -154,7 +157,7 @@ const App = () => {
                 </ul>
               </div>
             </li>
-            <li className="col-12 col-sm-6 col-md-6 p-1 flex">
+            <li className="col-12 col-sm-12 col-md-6 p-1 flex">
               <div className="bg-black clip-corner p-2 flex flex-column">
                 <div className="logo efi p-6">
                   <EFI />
@@ -192,7 +195,7 @@ const App = () => {
         </div>
       </section>
 
-      <section className="section-7">
+      <section className="section-7 pl-1 pr-2">
         <div className="wrapper">
           <h2 className="text-center">{indexData.machineExtreme.h2}</h2>
           <p className="copy text-center">{indexData.machineExtreme.copy}</p>
@@ -200,13 +203,13 @@ const App = () => {
           <ul className="row list-unstyled">
             {indexData.machineExtreme.blocks.map((block, i) => {
               return (
-                <li className="col-12 col-sm-6 col-md-6 p-1" key={i}>
-                  <div>
+                <li className="col-12 col-sm-12 col-md-6" key={i}>
+                  <div className="p-2">
                     <ul className="row list-unstyled align-items-center">
-                      <li className="col-12 col-sm-6 col-md-3 p-1">
-                        <img src={block.icon} alt="" />
+                      <li className="col-12 col-sm-3 col-md-3 p-1">
+                        <img src={block.icon} alt="" className="" />
                       </li>
-                      <li className="col-12 col-sm-6 col-md-9 p-1 pl-6 pr-6">
+                      <li className="col-12 col-sm-9 col-md-9 p-1 pl-6 pr-6">
                         <strong>{block.title}</strong>
                         <p>{block.copy}</p>
                       </li>
@@ -220,16 +223,14 @@ const App = () => {
       </section>
 
       <section className="section-8">
-        <div className="wrapper">
+        <div className="wrapper p-1">
           <img
-            className="mobile"
-            style={{ width: "100%" }}
+            className="mobile w-100"
             src={indexData.imgBlocks.mobile}
             alt=""
           />
           <img
-            className="desktop"
-            style={{ width: "100%" }}
+            className="desktop w-100"
             src={indexData.imgBlocks.desktop}
             alt=""
           />
@@ -255,17 +256,19 @@ const App = () => {
                     }
 
                     if (block2.copy) {
-                      output += `<span>${block2.copy}</span>`;
+                      output += `<span class="flex flex-column justify-content-center">${block2.copy}</span>`;
                     }
 
                     if (block2.active === true) {
-                      output = '<span class="dash-bull">&bull;</span>';
+                      output =
+                        '<span class="dash-bull flex flex-column justify-content-center">&bull;</span>';
                     } else if (block2.active === false) {
-                      output = '<span class="dash-bull">&ndash;</span>';
+                      output =
+                        '<span class="dash-bull flex flex-column justify-content-center">&ndash;</span>';
                     }
                     return (
                       <li
-                        className={`flex p-3 column-${x} row-${i}`}
+                        className={`flex p-2 column-${x} row-${i}`}
                         key={x}
                         dangerouslySetInnerHTML={{
                           __html: output,
@@ -289,12 +292,12 @@ const App = () => {
       <section className="section-10">
         <div className="wrapper">
           <h2 className="text-center">{indexData.howTo.h2}</h2>
-          <div className="slick">
+          <div className="slick pl-3 pr-3">
             <ul className="list-unstyled row">
               {indexData.howTo.blocks.map((block, i) => {
                 return (
                   <li
-                    className="col-12 col-sm-6 col-md-4 p-1 flex flex-column"
+                    className="col-12 col-sm-12 col-md-4 p-1 flex flex-column"
                     key={i}
                   >
                     <a href={block.url} className="flex flex-column">
@@ -316,12 +319,12 @@ const App = () => {
       <section className="section-11">
         <div className="wrapper">
           <h2 className="text-center">{indexData.attAcc.h2}</h2>
-          <div className="slick">
+          <div className="slick pl-3 pr-3">
             <ul className="list-unstyled row">
               {indexData.attAcc.blocks.map((block, i) => {
                 return (
                   <li
-                    className="col-12 col-sm-6 col-md-4 p-1 flex flex-column"
+                    className="col-12 col-sm-12 col-md-4 p-1 flex flex-column"
                     key={i}
                   >
                     <a href={block.url} className="flex flex-column">

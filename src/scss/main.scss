@@ -1,10 +1,5 @@
 @import "./functions.scss";
 
-footer {
-  min-height: rem(300);
-  overflow: initial;
-}
-
 .mtd-page {
   font-size: 16px;
 
@@ -76,7 +71,7 @@ footer {
   }
 
   .quote-block {
-    max-width: em(600);
+    // max-width: em(600);
 
     .title {
       font-size: rem(18);
@@ -265,8 +260,8 @@ footer {
 
         > img {
           position: absolute;
-          bottom: 0;
-          right: 0;
+          top: 0;
+          left: 0;
           z-index: 1001;
           z-index: -1;
           width: 100%;
@@ -535,8 +530,13 @@ footer {
       section.section-1 {
         .wrapper {
           min-height: rem(525);
+
+          p {
+            max-width: rem(500);
+          }
         }
       }
+
       section.section-2 {
         .wrapper {
           // max-width: rem(500);
@@ -597,6 +597,8 @@ footer {
         }
 
         .videos {
+          min-height: rem(760);
+
           .video {
             display: none;
 
@@ -658,6 +660,61 @@ footer {
 
 @media (max-width: rem(1024)) {
   .mtd-page {
+    .snow-v2.snow-v2-index {
+      section.hero,
+      section.quote {
+        min-height: rem(600);
+
+        .wrapper {
+          position: absolute;
+        }
+
+        > img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          max-height: initial;
+          object-fit: cover;
+        }
+      }
+
+      section.section-2 {
+        padding: rem(40) rem(20);
+
+        .pluses {
+          position: relative;
+          top: 0;
+          left: 0;
+
+          &.top {
+            margin-bottom: rem(40);
+          }
+
+          &.bottom {
+            margin-top: rem(40);
+            margin-left: auto;
+          }
+        }
+      }
+
+      section.section-3 .row .col a .icon {
+        max-width: em(400);
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      section.section-6 .logo {
+        min-height: auto;
+      }
+    }
+
+    .snow-v2.snow-v2-intellipower section.section-3 .videos {
+      min-height: auto;
+    }
+  }
+
+  .quote-block {
+    max-width: 100%;
   }
 }
 

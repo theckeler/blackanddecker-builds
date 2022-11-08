@@ -4,13 +4,10 @@ const QuoteBlock = ({ quote, addClass }) => {
   return (
     <div className={`quote-block flex flex-column h-100 p-4 ${addClass}`}>
       <ul className="row list-unstyled">
-        <li className="col col-12 col-sm-6 col-md-8 title text-uppercase">
+        <li className="col col-12 col-sm-12 col-md-8 title text-uppercase">
           <strong>{quote.title}</strong>
         </li>
-        <li
-          className="col col-12 col-sm-6 col-md-4"
-          style={{ textAlign: "right" }}
-        >
+        <li className="col col-12 col-sm-12 col-md-4 ml-auto">
           <Stars fill="#FFC10F" />
         </li>
       </ul>

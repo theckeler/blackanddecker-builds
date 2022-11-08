@@ -57,17 +57,20 @@ const App = () => {
   return (
     <div className="snow-v2 snow-v2-intellipower">
       <section className="section-1">
-        <div className="wrapper flex flex-column align-items-center justify-content-center">
-          <h1 dangerouslySetInnerHTML={{ __html: jsonData.hero.h1 }}></h1>
+        <div className="wrapper flex flex-column align-items-center justify-content-center px-3">
+          <h1
+            className="text-center"
+            dangerouslySetInnerHTML={{ __html: jsonData.hero.h1 }}
+          ></h1>
           <p
-            className="w-50 mt-3 text-center"
+            className="mt-3 text-center"
             dangerouslySetInnerHTML={{ __html: jsonData.hero.copy }}
           ></p>
         </div>
       </section>
 
       <section className="section-2 bg-black">
-        <div className="wrapper flex flex-column align-items-center justify-content-center">
+        <div className="wrapper flex flex-column align-items-center justify-content-center px-3">
           <div className="logo">
             <Intellipower />
           </div>
@@ -79,8 +82,8 @@ const App = () => {
         <IntellipowerBack />
       </section>
 
-      <section className="section-3 pt-8 pb-8">
-        <div className="wrapper">
+      {/* <section className="section-3 pt-8 pb-8">
+        <div className="wrapper px-3">
           <h2
             className="text-uppercase text-center h2 mb-0"
             dangerouslySetInnerHTML={{
@@ -96,7 +99,7 @@ const App = () => {
           <ul className="row list-unstyled power">
             {jsonData.stats.blocks.map((block, i) => {
               return (
-                <li className="col-12 col-sm-6 col-md-4 p-2 mt-2" key={i}>
+                <li className="col-12 col-sm-12 col-md-4 p-2 mt-2" key={i}>
                   <div className="p-2 flex flex-column">
                     <p className="text-uppercase text-center fw-bold text-uppercase h3 line-1 mb-0">
                       Up To
@@ -128,7 +131,7 @@ const App = () => {
           <ul className="row list-unstyled consistent">
             {jsonData.consistent.blocks.map((block, i) => {
               return (
-                <li className="col-12 col-sm-6 col-md-6 p-1" key={i}>
+                <li className="col-12 col-sm-12 col-md-6 p-1" key={i}>
                   <div className="h-100 bg-yellow p-5 flex flex-column">
                     <p
                       className="text-center h3 mt-0 pt-0 line-1"
@@ -157,7 +160,7 @@ const App = () => {
           <ul className="row list-unstyled mt-6">
             {jsonData.howItWorks.blocks.map((block, i) => {
               return (
-                <li className="col-12 col-sm-6 col-md-6 p-1" key={i}>
+                <li className="col-12 col-sm-12 col-md-6 p-1" key={i}>
                   <div className="bg-black clip-corner p-4 flex flex-column">
                     <p
                       className="text-uppercase fw-bold"
@@ -177,10 +180,7 @@ const App = () => {
             })}
           </ul>
 
-          <ul
-            className="row list-unstyled videos"
-            style={{ minHeight: "760px" }}
-          >
+          <ul className="row list-unstyled videos">
             <li
               className="col-12 col-sm-12 col-md-12 p-1 active video"
               id="step-up"
@@ -214,7 +214,7 @@ const App = () => {
             </li>
           </ul>
         </div>
-      </section>
+      </section> */}
 
       <section className="section-3 pt-8 pb-8 bg-yellow">
         <div className="wrapper">
@@ -222,7 +222,7 @@ const App = () => {
             {jsonData.quotes.blocks.map((block, i) => {
               return (
                 <li
-                  className="quote col-12 col-sm-6 col-md-6 pt-3 pr-3 pb-3 pl-3"
+                  className="quote col-12 col-sm-12 col-md-6 pt-3 pr-3 pb-3 pl-3"
                   key={i}
                 >
                   <QuoteBlock quote={block} addClass="bg-white" />
@@ -250,7 +250,7 @@ const App = () => {
           <ul className="row list-unstyled blocks">
             {jsonData.efi.blocks.map((block, i) => {
               return (
-                <li className="block col-12 col-sm-6 col-md-4 p-1" key={i}>
+                <li className="block col-12 col-sm-12 col-md-4 p-3" key={i}>
                   <div className="p-4 h-100 flex flex-column bg-white clip-corner">
                     <strong
                       className="title text-center mb-2 pb-2"
@@ -273,7 +273,7 @@ const App = () => {
       </section>
 
       <section className="section-5 pt-9 pb-9">
-        <div className="wrapper">
+        <div className="wrapper p-3">
           <h2
             className="text-center"
             dangerouslySetInnerHTML={{
@@ -281,7 +281,7 @@ const App = () => {
             }}
           ></h2>
           <a href="/" className="d-block mt-9">
-            <img src={jsonData.efiBlock.img} alt="" />
+            <img src={jsonData.efiBlock.img} alt="" className="w-100" />
           </a>
         </div>
       </section>
@@ -292,7 +292,7 @@ const App = () => {
             {jsonData.quotes.blocks.map((block, i) => {
               return (
                 <li
-                  className="quote col-12 col-sm-6 col-md-6 pt-3 pr-3 pb-3 pl-3"
+                  className="quote col-12 col-sm-12 col-md-6 pt-3 pr-3 pb-3 pl-3"
                   key={i}
                 >
                   <QuoteBlock quote={block} addClass="bg-white" />
@@ -315,7 +315,7 @@ const App = () => {
             {jsonData.learnMore.blocks.map((block, i) => {
               return (
                 <li
-                  className="quote col-12 col-sm-6 col-md-6 pt-3 pr-3 pb-3 pl-3"
+                  className="quote col-12 col-sm-12 col-md-6 pt-3 pr-3 pb-3 pl-3"
                   style={{ backgroundColor: "#EFEFEF" }}
                   key={i}
                 >
@@ -353,7 +353,7 @@ const App = () => {
           <ul className="row list-unstyled">
             {jsonData.viewMore.blocks.map((block, i) => {
               return (
-                <li className="quote col-12 col-sm-6 col-md-3 p-1" key={i}>
+                <li className="quote col-12 col-sm-12 col-md-3 p-1" key={i}>
                   <a
                     href="/"
                     className="p-3 text-decoration-none"
@@ -382,16 +382,16 @@ const App = () => {
       </section>
 
       <section className="section-9 pt-9 pb-9 p-0">
-        <div className="wrapper">
+        <div className="wrapper p-3">
           <ul className="row list-unstyled">
-            <li className="col-12 col-sm-6 col-md-6 p-0">
+            <li className="col-12 col-sm-12 col-md-6 p-0">
               <div className="p-0 flex flex-column">
                 <button className="active" id="button-intellipower-faqs">
                   IntelliPower<sup>™</sup>
                 </button>
               </div>
             </li>
-            <li className="col-12 col-sm-6 col-md-6 p-0">
+            <li className="col-12 col-sm-12 col-md-6 p-0">
               <div className="p-0 flex flex-column">
                 <button className="" id="button-efi-faqs">
                   EFI
