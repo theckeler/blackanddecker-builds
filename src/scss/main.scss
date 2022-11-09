@@ -56,6 +56,13 @@
     sup {
       font-size: 40%;
     }
+
+    &:active,
+    &:focus {
+      border-radius: 0;
+      border: none;
+      outline: none;
+    }
   }
 
   .fw-bold {
@@ -67,6 +74,14 @@
       * {
         fill: #000;
       }
+    }
+  }
+
+  .flex {
+    display: flex !important;
+
+    &.flex-column {
+      flex-direction: column !important;
     }
   }
 
@@ -132,6 +147,16 @@
     }
   }
 
+  .slick-next,
+  .slick-prev {
+    padding: initial;
+    font-weight: initial;
+
+    &:before {
+      padding: rem(10);
+    }
+  }
+
   .faqs {
     .question {
       display: flex;
@@ -174,6 +199,21 @@
           transform: rotate(0);
         }
       }
+    }
+  }
+
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
   }
 
@@ -303,6 +343,7 @@
               padding: rem(10);
               cursor: pointer;
               border-radius: rem(3);
+              user-select: none;
 
               &:hover {
                 color: #000;
@@ -376,7 +417,7 @@
         padding: rem(60) 0;
 
         .logo {
-          min-height: rem(290);
+          min-height: rem(234);
         }
 
         .row {

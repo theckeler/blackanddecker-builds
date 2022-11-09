@@ -95,7 +95,8 @@
 
   "efiBlock": {
     "h2": "Electronic Fuel Injection (EFI) Takes on the Job",
-    "img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/ve1f3e6cb0cf2f950d44a96bbcdc4fbdabb979847/snow-v2/efi.jpg"
+    "img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/ve1f3e6cb0cf2f950d44a96bbcdc4fbdabb979847/snow-v2/Takes%20on%20the%20Job.jpg",
+    "ytVideo": "Tqm2gCdsT9A"
   },
 
   "learnMore": {
@@ -126,44 +127,54 @@
     "h2": "View Cub Cadet Products with IntelliPower and EFI",
     "blocks": [
       {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw26bee84c/images/product-line-browse/Main-Carousel/SnowBlow_PLB_31AH5GVO710_2X_30EFI_desktop_1015x630.jpg",
-        "title": "2X 26\" INTELLIPOWER™ Snow Blower",
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw0d2ca778/products/Equipment/Cub-Cadet_2X28_IP_4.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "2X 28&rdquo; INTELLIPOWER™ Snow Blower ",
         "copy": "2X™ TWO-STAGE POWER",
-        "price": "From $1,299.00 MSRP",
+        "price": "From $1,499.00 MSRP",
         "button": {
-          "copy": "Add to Cart",
-          "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
-        }
+          "copy": "View More"
+        },
+        "url": "https://www.cubcadet.com/en_US/snow-blowers/2x-28inch-intellipower-snow-blower%C2%A0/31AH5IVTB10.html"
       },
       {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw26bee84c/images/product-line-browse/Main-Carousel/SnowBlow_PLB_31AH5GVO710_2X_30EFI_desktop_1015x630.jpg",
-        "title": "2X 26\" INTELLIPOWER™ Snow Blower",
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw6e9bb2ba/products/Equipment/Cub-Cadet_2X26_IP_11.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "2X 26&rdquo; INTELLIPOWER™ Snow Blower",
         "copy": "2X™ TWO-STAGE POWER",
         "price": "From $1,299.00 MSRP",
         "button": {
-          "copy": "Add to Cart",
-          "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
-        }
+          "copy": "View More"
+        },
+        "url": "https://www.cubcadet.com/en_US/snow-blowers/2x-26inch-intellipower-snow-blower%C2%A0/31AM5HVSB10.html"
       },
       {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw26bee84c/images/product-line-browse/Main-Carousel/SnowBlow_PLB_31AH5GVO710_2X_30EFI_desktop_1015x630.jpg",
-        "title": "2X 26\" INTELLIPOWER™ Snow Blower",
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw1022d4eb/products/Equipment/Cub-Cadet_2X_30EFI_14.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "2X 30&rdquo; EFI Snow Blower",
         "copy": "2X™ TWO-STAGE POWER",
-        "price": "From $1,299.00 MSRP",
+        "price": "From $1,999.00 MSRP",
         "button": {
-          "copy": "Add to Cart",
-          "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
-        }
+          "copy": "View More"
+        },
+        "url": "https://www.cubcadet.com/en_US/snow-blowers/2x-30inch-efi-snow-blower/31AH5GVO710.html"
       },
       {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw26bee84c/images/product-line-browse/Main-Carousel/SnowBlow_PLB_31AH5GVO710_2X_30EFI_desktop_1015x630.jpg",
-        "title": "2X 26\" INTELLIPOWER™ Snow Blower",
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwf61d20a5/products/Equipment/Cub-Cadet_2X24_IP_9.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "2X 24&rdquo; INTELLIPOWER™ Snow Blower",
         "copy": "2X™ TWO-STAGE POWER",
-        "price": "From $1,299.00 MSRP",
+        "price": "From $1,199.00 MSRP",
         "button": {
-          "copy": "Add to Cart",
-          "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
-        }
+          "copy": "View More"
+        },
+        "url": "https://www.cubcadet.com/en_US/snow-blowers/2x-24inch-intellipower-snow-blower%C2%A0/31AM6HVRB10.html"
+      },
+      {
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw528bc56b/products/Equipment/Cub-Cadet_2X26Trac_IP_2.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "2X 26&rdquo; TRAC INTELLIPOWER™ Snow Blower",
+        "copy": "2X™ TWO-STAGE POWER",
+        "price": "From $1,899.00 MSRP",
+        "button": {
+          "copy": "View More"
+        },
+        "url": "https://www.cubcadet.com/en_US/snow-blowers/2x-26inch-trac-intellipower-snow-blower/31AH7IVSB10.html"
       }
     ]
   },
@@ -172,40 +183,44 @@
     {
       "intellipower": [
         {
-          "question": "intellipower question",
-          "answer": "intellipower answer"
+          "question": "What is IntelliPower?",
+          "answer": "This engine technology electronically controls engine speed to create consistent mowing performance for users that might be challenged to cut through thick, wet heavy grass by delivering more power from the engine to the blades resulting in a Signature Cut™ every time."
         },
         {
-          "question": "Easy to Start",
-          "answer": "Quick startups and no need to prime or choke, just turn the key to start."
+          "question": "How does IntelliPower work?",
+          "answer": "IntelliPower technology has various electronic inputs that measure engine speed and temperature, which allows an onboard computer to digitally control the throttle position to maintain engine speed without the operator noticing. This prevents the engine from bogging down in challenging conditions, improving performance in heavy, wet grass, while mulching, bagging, or side discharging."
         },
         {
-          "question": "intellipower question",
-          "answer": "intellipower answer"
+          "question": "How does IntelliPower benefit me?",
+          "answer": "A decrease in engine speed means a decrease in blade speed, which leads to an uneven cut, or the unit stalling out. When you engage IntelliPower, you are digitally maintaining your engine speed, giving you up to 20% more available power* that you can feel and hear."
         },
         {
-          "question": "Easy to Start",
-          "answer": "Quick startups and no need to prime or choke, just turn the key to start."
+          "question": "How do I know if my unit has electronic governing?",
+          "answer": "Just look for IntelliPower, which is exclusive to Cub Cadet and featured on our snow blowers and walk behind/ride-on mowers."
         },
         {
-          "question": "intellipower question",
-          "answer": "intellipower answer"
+          "question": "Where is the throttle cable?",
+          "answer": "An engine with IntelliPower is controlled with an electronic speed selector that allows the user to pick any speed that they require. Say goodbye to physical choke and throttle cables."
         },
         {
-          "question": "Easy to Start",
-          "answer": "Quick startups and no need to prime or choke, just turn the key to start."
+          "question": "Does the IntelliPower feature require any maintenance?",
+          "answer": "No. The IntelliPower feature is controlled by an onboard computer that requires no additional maintenance throughout the life of the engine. In fact, this feature requires less components than a standard mechanical governed engine."
+        },
+        {
+          "question": "Do Cub Cadet IntelliPower engines accept E85?",
+          "answer": "No. E85 is a blend of gasoline containing mostly ethanol (85% ethanol and 15% gasoline). Operating the engine with E15 or E85 fuel may result in damage to your engine’s carburetor."
+        },
+        {
+          "question": "Do Cub Cadet IntelliPower engines accept diesel fuel?",
+          "answer": "No. Use automotive gasoline (unleaded or low leaded to minimize combustion chamber deposits) with a minimum of 87 octane."
         }
       ]
     },
     {
       "efi": [
         {
-          "question": "efi question ",
-          "answer": "efi answer"
-        },
-        {
-          "question": "Easy to Start",
-          "answer": "Quick startups and no need to prime or choke, just turn the key to start."
+          "question": "sdfsdfsdf",
+          "answer": "sdfsdfsdfsdf"
         }
       ]
     }

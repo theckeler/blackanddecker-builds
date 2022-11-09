@@ -85,7 +85,10 @@ const App = () => {
                       <strong className="title">{block.title}</strong>
                       <p className="copy">{block.copy}</p>
                       <div className="eng-for">Engineered for</div>
-                      <ul className="row list-unstyled">
+                      <ul
+                        className="row list-unstyled"
+                        style={{ minHeight: "220px" }}
+                      >
                         {block.engFor.map((subblock, i) => {
                           return (
                             <li
@@ -120,7 +123,11 @@ const App = () => {
 
       <section className="section-5 quote flex flex-column-reverse">
         <div className="wrapper">
-          <QuoteBlock quote={indexData.quote} addClass="bg-white clip-corner" />
+          <QuoteBlock
+            quote={indexData.quote}
+            addClass="bg-white clip-corner"
+            addCSS={{ maxWidth: "650px" }}
+          />
         </div>
         <img src={indexData.quote.img} alt={indexData.quote.alt} />
       </section>
@@ -159,7 +166,7 @@ const App = () => {
             </li>
             <li className="col-12 col-sm-12 col-md-6 p-1 flex">
               <div className="bg-black clip-corner p-2 flex flex-column">
-                <div className="logo efi p-6">
+                <div className="logo efi p-6 w-75 mx-auto">
                   <EFI />
                 </div>
                 <ul className="flex list-unstyled p-2">
@@ -318,6 +325,33 @@ const App = () => {
 
       <section className="section-11">
         <div className="wrapper">
+          <h2 className="text-center">{indexData.snowArticles.h2}</h2>
+          <div className="slick pl-3 pr-3">
+            <ul className="list-unstyled row">
+              {indexData.snowArticles.blocks.map((block, i) => {
+                return (
+                  <li
+                    className="col-12 col-sm-12 col-md-4 p-1 flex flex-column"
+                    key={i}
+                  >
+                    <a href={block.url} className="flex flex-column">
+                      <img src={block.img} alt="" />
+                      <div className="content flex flex-column p-3">
+                        <strong className="title">{block.title}</strong>
+                        <p className="copy mt-2">{block.copy}</p>
+                        <span className="read-more mt-2">Read more</span>
+                      </div>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="section-11">
+        <div className="wrapper">
           <h2 className="text-center">{indexData.attAcc.h2}</h2>
           <div className="slick pl-3 pr-3">
             <ul className="list-unstyled row">
@@ -344,7 +378,7 @@ const App = () => {
             </ul>
           </div>
         </div>
-      </section>
+      </section>*/}
     </div>
   );
 };

@@ -9,15 +9,27 @@ import { ReactComponent as IntellipowerBack } from "../images/intellipower-back.
 import Button from "./elements/Button";
 import QuoteBlock from "./elements/QuoteBlock";
 import Faqs from "./elements/Faqs";
+import Video from "./elements/Video";
 
 const App = () => {
   // console.log(jsonData);
   useEffect(() => {
-    document.querySelectorAll("#faqs-script").forEach(function (elem) {
+    document.querySelectorAll(".js-scripts").forEach(function (elem) {
       elem.remove();
     });
-    const html = `
-<script type="text/javascript" id="faqs-script">
+
+    const headHTML = `
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    `;
+    const scriptHeadHTML = document
+      .createRange()
+      .createContextualFragment(headHTML);
+    document.body.prepend(scriptHeadHTML);
+
+    const footerHTML = `
+
+<script type="text/javascript" class="js-scripts">
   document.querySelector("#button-efi-faqs").onclick = () => {
      document.querySelector("#button-intellipower-faqs").classList.remove("active");
     document.querySelector("#button-efi-faqs").classList.add("active");
@@ -33,26 +45,38 @@ const App = () => {
     document.querySelector("#faqs-intellipower").classList.add("active");
     document.querySelector("#faqs-efi").classList.remove("active");
   };
-
-  document.querySelector("#button-step-up").onclick = () => {
-    document.querySelector("#button-vr").classList.remove("active");
-    document.querySelector("#button-step-up").classList.add("active");
-    
-    document.querySelector("#vr").classList.remove("active");
-    document.querySelector("#step-up").classList.add("active");
-  };
-
-  document.querySelector("#button-vr").onclick = () => {
-    document.querySelector("#button-vr").classList.add("active");
-    document.querySelector("#button-step-up").classList.remove("active");
-    
-    document.querySelector("#vr").classList.add("active");
-    document.querySelector("#step-up").classList.remove("active");
-  };
-</script>`;
-    const scriptEl = document.createRange().createContextualFragment(html);
-    document.body.appendChild(scriptEl);
+</script>
+<script class="js-scripts">
+window.onload = function() {
+  $(".slick").slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
   });
+};
+</script>
+<script type="text/javascript" class="js-scripts" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+`;
+    const scriptFooterHTML = document
+      .createRange()
+      .createContextualFragment(footerHTML);
+    document.body.appendChild(scriptFooterHTML);
+  });
+
+  // document.querySelector("#button-step-up").onclick = () => {
+  //   document.querySelector("#button-vr").classList.remove("active");
+  //   document.querySelector("#button-step-up").classList.add("active");
+
+  //   document.querySelector("#vr").classList.remove("active");
+  //   document.querySelector("#step-up").classList.add("active");
+  // };
+
+  // document.querySelector("#button-vr").onclick = () => {
+  //   document.querySelector("#button-vr").classList.add("active");
+  //   document.querySelector("#button-step-up").classList.remove("active");
+
+  //   document.querySelector("#vr").classList.add("active");
+  //   document.querySelector("#step-up").classList.remove("active");
+  // };
 
   return (
     <div className="snow-v2 snow-v2-intellipower">
@@ -280,9 +304,15 @@ const App = () => {
               __html: jsonData.efiBlock.h2,
             }}
           ></h2>
-          <a href="/" className="d-block mt-9">
-            <img src={jsonData.efiBlock.img} alt="" className="w-100" />
-          </a>
+
+          <Video
+            img={jsonData.efiBlock.img}
+            ytVideo={jsonData.efiBlock.ytVideo}
+            addClass="w-100 mt-6"
+            // addStyle={{ minHeight: "300px" }}
+            // videoClass="w-100"
+            // videoStyle={{ minHeight: "56.25vw" }}
+          />
         </div>
       </section>
 
@@ -353,11 +383,14 @@ const App = () => {
           <ul className="row list-unstyled">
             {jsonData.viewMore.blocks.map((block, i) => {
               return (
-                <li className="quote col-12 col-sm-12 col-md-3 p-1" key={i}>
+                <li
+                  className="flex flex-column quote col-12 col-sm-12 col-md-4 p-1"
+                  key={i}
+                >
                   <a
-                    href="/"
-                    className="p-3 text-decoration-none"
-                    style={{ backgroundColor: "#EFEFEF", display: "block" }}
+                    href={block.url}
+                    className="flex flex-column p-3 h-100 text-decoration-none"
+                    style={{ backgroundColor: "#EFEFEF" }}
                   >
                     <img src={block.img} alt="" className="w-100" />
                     <p
@@ -372,7 +405,10 @@ const App = () => {
                         __html: block.copy,
                       }}
                     ></p>
-                    <Button copy={block.button.copy} addClass="bg-yellow" />
+                    <Button
+                      copy={block.button.copy}
+                      addClass="bg-yellow mt-auto"
+                    />
                   </a>
                 </li>
               );
