@@ -350,7 +350,7 @@ const App = () => {
         </div>
       </section>
 
-      {/* <section className="section-11">
+      <section className="section-11">
         <div className="wrapper">
           <h2 className="text-center">{indexData.attAcc.h2}</h2>
           <div className="slick pl-3 pr-3">
@@ -358,7 +358,7 @@ const App = () => {
               {indexData.attAcc.blocks.map((block, i) => {
                 return (
                   <li
-                    className="col-12 col-sm-12 col-md-4 p-1 flex flex-column"
+                    className="col-12 col-sm-12 col-md-3 p-1 flex flex-column"
                     key={i}
                   >
                     <a href={block.url} className="flex flex-column">
@@ -369,7 +369,7 @@ const App = () => {
                           <b>Item#:</b> {block.item}
                         </p>
                         <p className="price mt-2">{block.price}</p>
-                        <button className="bg-black">Add to Cart</button>
+                        <button className="bg-black">View More</button>
                       </div>
                     </a>
                   </li>
@@ -378,7 +378,7 @@ const App = () => {
             </ul>
           </div>
         </div>
-      </section>*/}
+      </section>
     </div>
   );
 };

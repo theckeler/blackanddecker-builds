@@ -295,33 +295,6 @@
     ]
   },
 
-  "attAcc": {
-    "h2": "Attachments & Accessories",
-    "blocks": [
-      {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw071865a6/Knowledge_Center/help-center/snow-thrower-operation-tips_1100x572.jpg",
-        "title": "Snow Cab",
-        "item": "490-241-0032",
-        "price": "$132.99",
-        "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
-      },
-      {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw071865a6/Knowledge_Center/help-center/snow-thrower-operation-tips_1100x572.jpg",
-        "title": "Snow Blower Cover",
-        "item": "490-290-0010",
-        "price": "$38.99",
-        "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
-      },
-      {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-cubcadet-Library/default/dw071865a6/Knowledge_Center/help-center/snow-thrower-operation-tips_1100x572.jpg",
-        "title": "Drift Cutter Kit",
-        "item": "OEM-390-679",
-        "price": "$41.99",
-        "url": "https://www.cubcadet.com/en_US/snow-blowers/single-stage-snow-blowers"
-      }
-    ]
-  },
-
   "snowArticles": {
     "h2": "Snow Articles",
     "blocks": [
@@ -342,6 +315,40 @@
         "title": "Cub Cadet Snow Blower Buyers Guide",
         "copy": "If you live in areas where snowfall is frequent or heavy, shoveling becomes part of your daily routine. Ditching your shovel, along with the heavy lifting and repetitive strain that comes with shoveling snow, in favor of a snow blower can save you time and energy. A couple of reasons to justify a snow blower…",
         "url": "https://www.cubcadet.com/en_US/product-information/cub-cadet-snow-blower-buying-guide.html"
+      }
+    ]
+  },
+
+  "attAcc": {
+    "h2": "Attachments & Accessories",
+    "blocks": [
+      {
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw0c657c35/products/Attachments_Accessories/490-241-0032.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "Universal Cab",
+        "item": "490-241-0032",
+        "price": "From $132.99 MSRP",
+        "url": "https://www.cubcadet.com/en_US/snow-blower-accessories/snow-blower-cab/490-241-0032.html#q=490-241-0032&lang=en_US&start=0"
+      },
+      {
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw2a0b010e/products/Attachments_Accessories/490-290-0010_1.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "Snow Blower Cover",
+        "item": "490-290-0010",
+        "price": "From $38.99 MSRP",
+        "url": "https://www.cubcadet.com/en_US/snow-blower-accessories/snow-blower-cover/490-290-0010.html#q=490-290-0010&lang=en_US&start=0"
+      },
+      {
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw32dc42ff/products/Attachments_Accessories/OEM-390-679.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "Drift Cutter Kit",
+        "item": "OEM-390-679",
+        "price": "From $41.99 MSRP",
+        "url": "https://www.cubcadet.com/en_US/snow-blower-accessories/drift-cutter-kit/OEM-390-679.html#q=OEM-390-679&lang=en_US&start=0"
+      },
+      {
+        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw301fe215/products/753-08629.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "LED Light Bar Kit",
+        "item": "753-08629A",
+        "price": "From $135.89 MSRP",
+        "url": "https://www.cubcadet.com/en_US/snow-blower-accessories/led-light-bar-kit/753-08629A.html#q=753-08629A&lang=en_US&start=0"
       }
     ]
   }
