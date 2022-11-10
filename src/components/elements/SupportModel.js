@@ -11,32 +11,17 @@ const SupportModel = ({ title, sub, addClass, addStyle }) => {
       <h2 className="text-center">{title}</h2>
       <p className="text-center">{sub}</p>
 
-      <label htmlFor="search-by-number" className="text-danger">
-        Model #, Part # or Item #
-      </label>
+      <label htmlFor="search-by-number">Model #, Part # or Item #</label>
 
-      <div className="input-btn">
-        <input
-          autoComplete="off"
-          className="form-control search-field is-invalid"
-          id="search-by-number"
-          name="q"
-          required=""
-          type="search"
-          aria-describedby="16680858695420"
-        />
-      </div>
-
-      <div
-        className="suggestions-wrapper"
-        data-url="/on/demandware.store/Sites-cubcadet-Site/en_US/SearchServices-GetSuggestions?q="
-      ></div>
-
-      <div className="invalid-feedback" id="16680858695420">
-        <strong>Required Field: </strong>(Model #, Part # or Item #) Please fill
-        out this field.
-      </div>
-      <input name="lang" type="hidden" value="en_US" />
+      <input
+        autoComplete="off"
+        className="form-control search-field"
+        id="search-by-number"
+        name="q"
+        required=""
+        type="search"
+        aria-describedby="16680858695420"
+      />
 
       <div className="mt-3">
         <img

@@ -111,7 +111,7 @@ const App = () => {
         </div>
       </section>
 
-      <section className="section-4 bg-black py-5">
+      <section className="section-4 bg-black py-5 px-3">
         <div className="wrapper">
           <h2
             className="text-center"
@@ -137,7 +137,7 @@ const App = () => {
 
               return (
                 <li
-                  className="flex flex-column col-12 col-sm-12 col-md-3 p-1"
+                  className="flex flex-column col-12 col-sm-12 col-md-6 col-lg-3 p-1"
                   key={i}
                 >
                   <a
@@ -177,7 +177,7 @@ const App = () => {
             {jsonData.section6.blocks.map((block, i) => {
               return (
                 <li
-                  className="flex flex-column col-12 col-sm-12 col-md-3 p-1"
+                  className="flex flex-column col-12 col-sm-12 col-md-6 col-lg-3 p-1"
                   key={i}
                 >
                   <a
