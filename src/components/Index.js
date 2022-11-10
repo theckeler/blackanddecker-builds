@@ -5,6 +5,7 @@ import "../scss/home.scss";
 
 import SnowV2Index from "./SnowV2Index";
 import IntelliPower from "./IntelliPower";
+import CustomerService from "./CustomerService";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Route path="/" element={<Home />} />
       <Route path="/snowv2" element={<SnowV2Index />} />
       <Route path="/intellipower" element={<IntelliPower />} />
+      <Route path="/customerservice" element={<CustomerService />} />
     </Routes>
   );
 };
@@ -19,7 +21,7 @@ const Index = () => {
 function Home() {
   return (
     <div
-      className="wrapper"
+      className="wrapper home"
       style={{
         minHeight: "50vh",
         display: "flex",
@@ -31,7 +33,7 @@ function Home() {
       <h1 style={{ textTransform: "uppercase" }}>CC Page Builds:</h1>
       <ul className="home-list">
         <li>
-          <strong className="title">Snow V2:</strong>
+          <strong>Snow V2:</strong>
           <ul>
             <li>
               <Link to="/snowv2">Snow V2 Index</Link>
@@ -40,6 +42,9 @@ function Home() {
               <Link to="/intellipower">IntelliPower</Link>
             </li>
           </ul>
+        </li>
+        <li style={{ marginTop: "20px" }}>
+          <Link to="/customerservice">Customer Service</Link>
         </li>
       </ul>
     </div>

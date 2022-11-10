@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import jsonData from "../data/snow-intellipower.json";
 import "../scss/main.scss";
-//import { ReactComponent as Logo } from "../images/x-series.svg";
-//import { ReactComponent as Plus } from "../images/icon-plus.svg";
+import "../scss/snow-v2.scss";
 import { ReactComponent as Intellipower } from "../images/intellipower-logo.svg";
 import { ReactComponent as EFI } from "../images/efi-logo.svg";
 import { ReactComponent as IntellipowerBack } from "../images/intellipower-back.svg";

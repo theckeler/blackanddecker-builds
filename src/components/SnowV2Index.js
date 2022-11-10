@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import indexData from "../data/snow-index.json";
 import "../scss/main.scss";
+import "../scss/snow-v2.scss";
 import { ReactComponent as Logo } from "../images/x-series.svg";
 import { ReactComponent as Plus } from "../images/icon-plus.svg";
 import { ReactComponent as Intellipower } from "../images/intellipower-logo.svg";
