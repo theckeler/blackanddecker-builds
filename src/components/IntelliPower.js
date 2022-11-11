@@ -273,7 +273,7 @@ window.onload = function() {
           <ul className="row list-unstyled blocks">
             {jsonData.efi.blocks.map((block, i) => {
               return (
-                <li className="block col-12 col-sm-12 col-md-4 p-3" key={i}>
+                <li className="block col-12 col-sm-12 col-md-6 p-3" key={i}>
                   <div className="p-4 h-100 flex flex-column bg-white clip-corner">
                     <strong
                       className="title text-center mb-2 pb-2"
@@ -332,42 +332,36 @@ window.onload = function() {
         </div>
       </section>
 
-      <section className="section-7 pt-9 pb-9">
-        <div className="wrapper">
-          <h2
-            className="text-center"
-            dangerouslySetInnerHTML={{
-              __html: jsonData.learnMore.h2,
-            }}
-          ></h2>
+      <section className="section-7 py-9">
+        <div className="wrapper flex flex-column">
           <ul className="row list-unstyled">
             {jsonData.learnMore.blocks.map((block, i) => {
               return (
-                <li
-                  className="quote col-12 col-sm-12 col-md-6 pt-3 pr-3 pb-3 pl-3"
-                  style={{ backgroundColor: "#EFEFEF" }}
-                  key={i}
-                >
-                  <a href="/" className="text-decoration-none">
+                <li className="quote col-12 col-sm-12 col-md-6 p-0" key={i}>
+                  <a href="/" className="text-decoration-none p-3 d-block">
                     <img src={block.img} alt="" className="w-100" />
-                    <p
-                      className="title mt-2 fw-bold"
-                      dangerouslySetInnerHTML={{
-                        __html: block.title,
-                      }}
-                    ></p>
-                    <p
-                      className="copy"
-                      dangerouslySetInnerHTML={{
-                        __html: block.copy,
-                      }}
-                    ></p>
-                    <Button copy={block.button.copy} addClass="bg-yellow" />
                   </a>
                 </li>
               );
             })}
           </ul>
+          <h2
+            className="text-center"
+            dangerouslySetInnerHTML={{
+              __html: jsonData.learnMore.h2,
+            }}
+          />
+          <p
+            className="copy text-center max-width-1000 mb-4 mt-1"
+            dangerouslySetInnerHTML={{
+              __html: jsonData.learnMore.copy,
+            }}
+          />
+          <Button
+            copy={jsonData.learnMore.button.copy}
+            url={jsonData.learnMore.button.url}
+            addClass="bg-yellow mx-auto"
+          />
         </div>
       </section>
 
@@ -388,8 +382,7 @@ window.onload = function() {
                 >
                   <a
                     href={block.url}
-                    className="flex flex-column p-3 h-100 text-decoration-none"
-                    style={{ backgroundColor: "#EFEFEF" }}
+                    className="flex flex-column p-3 h-100 text-decoration-none bg-grey"
                   >
                     <img src={block.img} alt="" className="w-100" />
                     <p
@@ -412,6 +405,23 @@ window.onload = function() {
                 </li>
               );
             })}
+            <li class="flex flex-column quote col-12 col-sm-12 col-md-4 p-1">
+              <a
+                href="https://www.cubcadet.com/en_US/snow-blowers/two-stage-snow-blowers"
+                class="flex flex-column p-3 h-100 text-decoration-none bg-grey"
+              >
+                <div className="img-wrapper">
+                  <img
+                    src="https://www.cubcadet.com/on/demandware.static/-/Sites-cubcadet-Library/default/dw26bee84c/images/product-line-browse/Main-Carousel/SnowBlow_PLB_31AH5GVO710_2X_30EFI_desktop_1015x630.jpg"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </div>
+                <button class="coh-link coh-style-button-action bg-yellow mt-auto">
+                  View All 2X Snowblowers
+                </button>
+              </a>
+            </li>
           </ul>
         </div>
       </section>

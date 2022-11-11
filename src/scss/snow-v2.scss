@@ -42,6 +42,14 @@
       }
     }
 
+    .img-wrapper {
+      position: relative;
+      min-height: rem(420);
+      img {
+        object-fit: cover;
+      }
+    }
+
     &.snow-v2-index {
       section.hero {
         .wrapper {
@@ -454,24 +462,30 @@
           }
         }
       }
-    }
 
-    section.section-9 {
-      .faqs {
-        display: none;
-
-        &.active {
-          display: block;
+      section.section-8 {
+        .img-wrapper img {
+          object-position: left;
         }
       }
 
-      button {
-        background: #000;
-        color: #fff;
+      section.section-9 {
+        .faqs {
+          display: none;
 
-        &.active {
-          background: #ffc10f;
-          color: #000;
+          &.active {
+            display: block;
+          }
+        }
+
+        button {
+          background: #000;
+          color: #fff;
+
+          &.active {
+            background: #ffc10f;
+            color: #000;
+          }
         }
       }
     }
