@@ -1,15 +1,8 @@
-# CC Builds:
+# Cub Cadet Page Builds:
 
-## Scripts
+Using React to build flat html pages to insert into Salesforce for Cub Cadet.
+Nothing more to see or do here.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-# cc-builds
-# cc-builds
+Runs the app in the development mode.
