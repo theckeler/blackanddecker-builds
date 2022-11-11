@@ -105,7 +105,7 @@ window.onload = function() {
         <IntellipowerBack />
       </section>
 
-      {/* <section className="section-3 pt-8 pb-8">
+      <section className="section-3 pt-8 pb-8">
         <div className="wrapper px-3">
           <h2
             className="text-uppercase text-center h2 mb-0"
@@ -203,7 +203,7 @@ window.onload = function() {
             })}
           </ul>
 
-          <ul className="row list-unstyled videos">
+          {/* <ul className="row list-unstyled videos">
             <li
               className="col-12 col-sm-12 col-md-12 p-1 active video"
               id="step-up"
@@ -235,9 +235,9 @@ window.onload = function() {
                 </button>
               </div>
             </li>
-          </ul>
+          </ul> */}
         </div>
-      </section> */}
+      </section>
 
       <section className="section-3 pt-8 pb-8 bg-yellow">
         <div className="wrapper">
