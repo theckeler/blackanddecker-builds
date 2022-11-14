@@ -204,11 +204,13 @@ const App = () => {
                 </div>
               </li>
             </ul>
-            <Button
-              copy={indexData.intellipower.button.copy}
-              url={indexData.intellipower.button.url}
-              addClass="clip-corner bg-black mx-auto"
-            />
+            <div className="text-center">
+              <Button
+                copy={indexData.intellipower.button.copy}
+                url={indexData.intellipower.button.url}
+                addClass="clip-corner bg-black mx-auto"
+              />
+            </div>
           </div>
         </section>
 
@@ -298,11 +300,13 @@ const App = () => {
               })}
             </ul>
             <h3 className="text-center">{indexData.compare.copy}</h3>
-            <Button
-              copy={indexData.compare.button.copy}
-              url={indexData.compare.button.url}
-              addClass="clip-corner bg-black mx-auto mt-5"
-            />
+            <div className="text-center">
+              <Button
+                copy={indexData.compare.button.copy}
+                url={indexData.compare.button.url}
+                addClass="clip-corner bg-black mx-auto mt-5"
+              />
+            </div>
           </div>
         </section>
       </div>
