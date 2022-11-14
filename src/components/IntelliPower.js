@@ -332,7 +332,7 @@ window.onload = function() {
         </div>
       </section>
 
-      <section className="section-7 py-9">
+      {/* <section className="section-7 py-9">
         <div className="wrapper flex flex-column">
           <ul className="row list-unstyled">
             {jsonData.learnMore.blocks.map((block, i) => {
@@ -362,6 +362,44 @@ window.onload = function() {
             url={jsonData.learnMore.button.url}
             addClass="bg-yellow mx-auto"
           />
+        </div>
+      </section> */}
+
+      <section className="section-7 pt-9 pb-9">
+        <div className="wrapper">
+          <h2
+            className="text-center"
+            dangerouslySetInnerHTML={{
+              __html: jsonData.learnMore.h2,
+            }}
+          ></h2>
+          <ul className="row list-unstyled">
+            {jsonData.learnMore.blocks.map((block, i) => {
+              return (
+                <li
+                  className="quote col-12 col-sm-12 col-md-6 pt-3 pr-3 pb-3 pl-3 bg-grey"
+                  key={i}
+                >
+                  <a href={block.button.url} className="text-decoration-none">
+                    <img src={block.img} alt="" className="w-100" />
+                    <p
+                      className="title mt-2 fw-bold"
+                      dangerouslySetInnerHTML={{
+                        __html: block.title,
+                      }}
+                    ></p>
+                    <p
+                      className="copy"
+                      dangerouslySetInnerHTML={{
+                        __html: block.copy,
+                      }}
+                    ></p>
+                    <Button copy={block.button.copy} addClass="bg-yellow" />
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </section>
 
