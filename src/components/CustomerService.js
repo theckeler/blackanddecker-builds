@@ -30,14 +30,14 @@ const App = () => {
 
   return (
     <div className="customer-service">
-      <section className="section-1 bg-yellow">
+      <section className="section-1 bg-yellow mt-6">
         <div className="wrapper px-3 py-4">
           <h1
-            className="text-center mb-0"
+            className="text-center mb-0 text-white"
             dangerouslySetInnerHTML={{ __html: jsonData.section1.h1 }}
           ></h1>
           <p
-            className="mt-2 mb-0 text-center"
+            className="mt-2 mb-0 text-center text-white"
             dangerouslySetInnerHTML={{ __html: jsonData.section1.copy }}
           ></p>
         </div>
