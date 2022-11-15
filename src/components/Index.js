@@ -3,16 +3,12 @@ import { Routes, Route, Link } from "react-router-dom";
 import "../scss/main.scss";
 import "../scss/home.scss";
 
-import SnowV2Index from "./SnowV2Index";
-import IntelliPower from "./IntelliPower";
 import CustomerService from "./CustomerService";
 
 const Index = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/snowv2" element={<SnowV2Index />} />
-      <Route path="/intellipower" element={<IntelliPower />} />
       <Route path="/customerservice" element={<CustomerService />} />
     </Routes>
   );
@@ -30,19 +26,8 @@ function Home() {
         alignItems: "center",
       }}
     >
-      <h1 style={{ textTransform: "uppercase" }}>CC Page Builds:</h1>
+      <h1 style={{ textTransform: "uppercase" }}>TB Page Builds:</h1>
       <ul className="home-list">
-        <li>
-          <strong>Snow V2:</strong>
-          <ul>
-            <li>
-              <Link to="/snowv2">Snow V2 Index</Link>
-            </li>
-            <li>
-              <Link to="/intellipower">IntelliPower</Link>
-            </li>
-          </ul>
-        </li>
         <li style={{ marginTop: "20px" }}>
           <Link to="/customerservice">Customer Service</Link>
         </li>

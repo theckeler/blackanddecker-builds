@@ -9,8 +9,8 @@ function Header() {
         <a href="/" title="Cub Cadet Home">
           <img
             className="icon logo"
-            src="https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/v1d5f49f5a13f1eba170bf9f8624abecd5fbcf8a0/images/for-dev/logo.svg"
-            alt="Cub Cadet"
+            src="https://www.troybilt.com/on/demandware.static/Sites-troybilt-Site/-/default/dw7d1eb42a/images/svg-icons/logo.svg"
+            alt=""
           />
         </a>
       </div>
