@@ -25,7 +25,7 @@ const App = () => {
             {jsonData.products.blocks.map((block, i) => {
               return (
                 <li
-                  className="flex flex-column col-12 col-sm-12 col-md-4 p-1"
+                  className="flex flex-column col-12 col-sm-12 col-md-6 col-lg-4 p-1"
                   key={i}
                 >
                   <a
