@@ -1,22 +1,20 @@
 import React from "react";
 import jsonData from "../data/gift-guide.json";
 import ProductBlock from "./elements/ProductBlock";
-import Button from "./elements/Button";
 import "../scss/gift-guide.scss";
 
 const App = () => {
   return (
-    <div className="customer-service">
+    <div className="gift-guide">
       <section className="section-1 bg-red mt-6">
-        <div className="wrapper px-3 py-4">
+        <div className="hero-wrapper">
+          <img src={jsonData.hero.img} alt="" />
+        </div>
+        <div className="wrapper p-3">
           <h1
-            className="text-center mb-0 text-white"
+            className="text-center mb-0 text-white text-uppercase"
             dangerouslySetInnerHTML={{ __html: jsonData.hero.h1 }}
-          ></h1>
-          <p
-            className="mt-2 mb-0 text-center text-white"
-            dangerouslySetInnerHTML={{ __html: jsonData.hero.copy }}
-          ></p>
+          />
         </div>
       </section>
 
