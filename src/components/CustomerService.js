@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <div className="customer-service">
-      <section className="section-1 bg-yellow mt-6">
+      <section className="section-1 bg-red mt-6">
         <div className="wrapper px-3 py-4">
           <h1
             className="text-center mb-0 text-white"
@@ -114,11 +114,11 @@ const App = () => {
       <section className="section-4 bg-black py-5 px-3">
         <div className="wrapper">
           <h2
-            className="text-center"
+            className="text-center text-white"
             dangerouslySetInnerHTML={{ __html: jsonData.section4.h2 }}
           />
           <p
-            className="mx-auto"
+            className="mx-auto text-white"
             style={{ maxWidth: "840px" }}
             dangerouslySetInnerHTML={{ __html: jsonData.section4.copy }}
           />
@@ -199,14 +199,14 @@ const App = () => {
         </div>
       </section>
 
-      <section className="section-7 bg-yellow py-5">
+      <section className="section-7 bg-red py-5">
         <div className="wrapper" style={{ maxWidth: "700px" }}>
           <h2
-            className="text-center"
+            className="text-center text-white"
             dangerouslySetInnerHTML={{ __html: jsonData.section7.h2 }}
           />
           <p
-            className="text-center"
+            className="text-center text-white"
             dangerouslySetInnerHTML={{ __html: jsonData.section7.copy }}
           />
 

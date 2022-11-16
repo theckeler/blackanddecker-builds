@@ -37,12 +37,16 @@
     color: #000;
   }
 
-  .bg-yellow {
+  .bg-red {
     background-color: #c00;
   }
 
-  a.link-yellow {
+  a.link-red {
     color: #c00;
+  }
+
+  a.link-white {
+    color: #fff;
   }
 
   sup {
@@ -149,9 +153,9 @@
     border: 0;
     font-size: rem(14);
 
-    &.bg-black {
+    &.bg-red {
       color: #fff;
-      background: #000;
+      background: #c00;
     }
 
     &:hover {

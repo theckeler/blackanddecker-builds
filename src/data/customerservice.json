@@ -38,7 +38,7 @@
   },
   "section4": {
     "h2": "Don't have an account?",
-    "copy": "Find information related to your mower with ease when you <a href=\"#\" class=\"link-yellow\">create an account</a> and <a href=\"#\" class=\"link-yellow\">register your mower</a>. Benefits include: Proof of purchase for insurance, find warranty information, view safety information and get timely maintenance reminders."
+    "copy": "Find information related to your mower with ease when you <a href=\"#\" class=\"link-white\">create an account</a> and <a href=\"#\" class=\"link-white\">register your mower</a>. Benefits include: Proof of purchase for insurance, find warranty information, view safety information and get timely maintenance reminders."
   },
   "section5": {
     "h2": "Popular Help Links",
@@ -81,44 +81,39 @@
     "h2": "Find Support by Model",
     "blocks": [
       {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw8f055b11/products/Equipment/Cub-Cadet_XT1LT46_New_2000x2000_8.jpg?sw=290&sh=290&sm=fit",
+        "img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw26941dc0/products/Equipment/Troy-Bilt_Bronco46K_2000x2000_1.jpg?sw=1000&sh=1000&sm=fit",
         "title": "Lawn Mowers",
-        "url": "/"
+        "url": "https://www.troybilt.com/en_US/lawn-mowers/riding-lawn-mowers"
       },
       {
-        "img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/v9e835077e52279a69a54b4c30b00cf9f3c2d0358/ultima/product-ZTS.jpg?version=1,639,577,713,000",
+        "img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwc4e99be2/products/Equipment/Troy-Bilt_MustangZ54_2000x2000_6.jpg?sw=1000&sh=1000&sm=fit",
         "title": "Zero-Turn",
-        "url": "/"
+        "url": "https://www.troybilt.com/en_US/riding-lawn-mowers/zero-turn-mowers"
       },
       {
-        "img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/v9e835077e52279a69a54b4c30b00cf9f3c2d0358/ultima/product-ZT-el.jpg?version=1,639,577,700,000",
-        "title": "Electric",
-        "url": "/"
+        "img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw93aa9e08/products/Equipment/Troy-Bilt_TB230BXP_2000x2000_6.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "Walk-Behind Mowers",
+        "url": "https://www.troybilt.com/en_US/lawn-mowers/walk-behind-mowers"
       },
       {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw9d00b090/products/Equipment/Cub-Cadet_ProZ_972SD_1.jpg?sw=550&sh=550&sm=fit",
-        "title": "Professional",
-        "url": "/"
+        "img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw853c35dc/products/Equipment/Troy-Bilt_SuperBroncoCRT_2000x2000_10.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "Gardening",
+        "url": "https://www.troybilt.com/en_US/gardening"
       },
       {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw5cb54c82/products/Equipment/Cub-Cadet_3X_30HD_3.jpg?sw=290&sh=290&sm=fit",
-        "title": "Snow",
-        "url": "/"
+        "img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwe732a9dd/products/Equipment/Troy-Bilt_CSV070B_3.jpg?sw=1000&sh=1000&sm=fit",
+        "title": "Yard Tools",
+        "url": "https://www.troybilt.com/en_US/yard-tools"
       },
       {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwa5c0e1bd/products/Equipment/37DZ7CKK710_MX550_H.jpg?sw=290&sh=290&sm=fit",
+        "img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwad09d29f/products/Equipment/Troy-Bilt_Vortex%202610_13.jpg?sw=1000&sh=1000&sm=fit",
         "title": "UTV",
-        "url": "/"
+        "url": "https://www.troybilt.com/en_US/snow-blowers"
       },
       {
-        "img": "https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw7b269624/products/Equipment/Cub_Cadet_CS16E_2000x2000_4.jpg?sw=1000&sh=1000&sm=fit",
-        "title": "Chore & Handheld",
-        "url": "/"
-      },
-      {
-        "img": "https://www.cubcadet.com/on/demandware.static/-/Sites-cubcadet-sales-catalog/default/dw63b8d5db/menu-card-images/Cub-Cadet-Riding-Mower-Accessory1_NavCard.png",
+        "img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwede3d406/products/Attachments_Accessories/19A30031OEM_1.jpg?sw=1000&sh=1000&sm=fit",
         "title": "Attachments",
-        "url": "/"
+        "url": "https://www.troybilt.com/en_US/lawn-mower-attachments"
       }
     ]
   },
