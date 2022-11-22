@@ -65,11 +65,11 @@ const App = () => {
                       <ComponentName />
                     </div>
                     <p
-                      className="text-center mt-4 mb-0"
+                      className="text-center mt-4 mb-0 fw-bold"
                       dangerouslySetInnerHTML={{
                         __html: block.title,
                       }}
-                    ></p>
+                    />
                   </a>
                 </li>
               );

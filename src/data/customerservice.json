@@ -8,22 +8,22 @@
       {
         "img": "iconBelt",
         "title": "How to Change the Deck Belt on a Riding Mower",
-        "url": "/"
+        "url": "https://www.troybilt.com/en_US/knowledge-tb-how-to-change-the-deck-belt-on-a-troy-bilt-riding-mower.html"
       },
       {
         "img": "iconBlades",
         "title": "How to Change the Blades on a Riding Mower",
-        "url": "/"
+        "url": "https://www.troybilt.com/en_US/knowledge-tb-how-to-change-the-blade-on-your-troy-bilt-rider.html"
       },
       {
         "img": "iconLevel",
         "title": "How to Level the Deckon a Riding Mower",
-        "url": "/"
+        "url": "https://www.troybilt.com/en_US/How+Do+I+Level+the+Deck+on+My+Riding+Mower%3F.html"
       }
     ],
     "button": {
-      "copy": "Explore 3X snow blowers",
-      "url": "/customerservice/"
+      "copy": "See all how-to content",
+      "url": "https://www.troybilt.com/en_US/knowledge-center/"
     }
   },
   "section3": {
@@ -38,7 +38,7 @@
   },
   "section4": {
     "h2": "Don't have an account?",
-    "copy": "Find information related to your mower with ease when you <a href=\"#\" class=\"link-white\">create an account</a> and <a href=\"#\" class=\"link-white\">register your mower</a>. Benefits include: Proof of purchase for insurance, find warranty information, view safety information and get timely maintenance reminders."
+    "copy": "Find information related to your mower with ease when you <a href=\"https://www.troybilt.com/en_US/login\" class=\"link-white\">create an account</a> and <a href=\"https://www.troybilt.com/en_US/registration.html\" class=\"link-white\">register your mower</a>. Benefits include: Proof of purchase for insurance, find warranty information, view safety information and get timely maintenance reminders."
   },
   "section5": {
     "h2": "Popular Help Links",
@@ -46,7 +46,7 @@
       {
         "img": "iconMagGlassBolt",
         "copy": "Search parts for your machine or view diagrams",
-        "url": "/",
+        "url": "https://www.troybilt.com/en_US/service-and-parts",
         "button": {
           "copy": "Find parts"
         }
@@ -54,7 +54,7 @@
       {
         "img": "iconManuals",
         "copy": "Locate warranty information & coverage for your machine",
-        "url": "/",
+        "url": "https://www.troybilt.com/en_US/operatorsmanuals",
         "button": {
           "copy": "Find manuals"
         }
@@ -62,7 +62,7 @@
       {
         "img": "iconScrewdriverWrench",
         "copy": "Find a licensed mechanic at a service center near you ",
-        "url": "/",
+        "url": "https://www.troybilt.com/on/demandware.store/Sites-troybilt-Site/en_US/Stores-FindService",
         "button": {
           "copy": "Find service"
         }
