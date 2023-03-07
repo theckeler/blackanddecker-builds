@@ -1,10 +1,14 @@
 @import "./functions.scss";
 
-// html,
-// body {
-//   height: 100%;
-//   margin: 0;
-// }
+.hero.slant-down.content-page-image {
+  position: absolute;
+  top: -100000vh;
+  left: -10000vw;
+  display: none;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
 
 .container.content-asset-container {
   max-width: 100%;
