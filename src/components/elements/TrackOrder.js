@@ -16,7 +16,7 @@ const TrackOrder = ({ title, sub, addClass, addStyle }) => {
 			<p className="mt-auto">
 				<Button
 					copy="Track My Order"
-					url="https://www.cubcadet.com/en_US/track-my-order"
+					url="https://www.troybilt.com/en_US/track-my-order"
 					addClass="btn btn-block btn-secondary mt-auto"
 				/>
 			</p>
