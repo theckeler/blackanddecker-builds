@@ -210,13 +210,15 @@ const App = () => {
 									<span className="icon mr-1">
 										<IconPhone />
 									</span>
-									866-931-9544
+									800-828-5500
 								</button>
 							</div>
 						</li>
 						<li className="flex flex-column quote col-12 col-sm-12 col-md-6 p-1">
 							<div className="flex flex-column p-0">
-								<button className="bg-black flex justify-content-center align-items-center">
+								<button
+									className="bg-black flex justify-content-center align-items-center"
+									onclick="openChat()">
 									<span className="icon mr-1">
 										<IconChat />
 									</span>

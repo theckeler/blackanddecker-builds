@@ -3,7 +3,7 @@ import Button from "../elements/Button";
 const TrackOrder = ({ title, sub, addClass, addStyle }) => {
 	return (
 		<form
-			action="https://www.cubcadet.com/on/demandware.store/Sites-cubcadet-Site/en_US/Order-Track"
+			action="https://www.troybilt.com/en_US/track-my-order"
 			className="trackorder flex flex-column"
 			method="GET"
 			name="trackorder-form">
