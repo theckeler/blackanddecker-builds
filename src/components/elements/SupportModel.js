@@ -1,3 +1,5 @@
+import Button from "../elements/Button";
+
 const SupportModel = ({ title, sub, addClass, addStyle }) => {
 	return (
 		<form
@@ -24,7 +26,7 @@ const SupportModel = ({ title, sub, addClass, addStyle }) => {
 
 			<div className="mt-3">
 				<img
-					src="https://www.troybilt.com/on/demandware.static/-/Sites-troybilt-Library/default/dwf746b099/Model-Plates/Find_Model_Number_Troy_Bilt.jpg"
+					src="https://mtdproducts.my.salesforce-sites.com/ProductRegistration/resource/1619086108000/CmsTemp/ProductRegistration/img/troy-bilt-US-model-plate.jpg"
 					alt=""
 					className="ml-auto mr-auto"
 				/>
@@ -35,9 +37,11 @@ const SupportModel = ({ title, sub, addClass, addStyle }) => {
 				</p>
 			</div>
 
-			<button className="btn btn-secondary btn-pf-search mt-auto" type="submit">
-				Find Support
-			</button>
+			<Button
+				copy="Find Support"
+				url="https://www.mtdparts.com/en_US/ari-partstream.html"
+				addClass="btn btn-block btn-secondary mt-auto"
+			/>
 		</form>
 	);
 };
