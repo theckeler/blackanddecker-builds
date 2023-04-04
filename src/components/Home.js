@@ -16,10 +16,7 @@ const Home = () => {
 			<h1 style={{ textTransform: "uppercase" }}>TB Page Builds:</h1>
 			<ul className="home-list">
 				<li>
-					<Link to="/customer-service">Customer Service</Link>
-				</li>
-				<li className="mt-2">
-					<Link to="/gift-guide">Gift Guide</Link>
+					<Link to="/faqs">Customer Service</Link>
 				</li>
 			</ul>
 		</div>
