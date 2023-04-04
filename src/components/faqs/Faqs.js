@@ -7,11 +7,9 @@ import Section3 from "./componetnts/Section3";
 const App = () => {
 	return (
 		<>
-			<div>
-				<Section1 />
-				<Section2 />
-				<Section3 />
-			</div>
+			<Section1 />
+			<Section2 />
+			<Section3 />
 		</>
 	);
 };

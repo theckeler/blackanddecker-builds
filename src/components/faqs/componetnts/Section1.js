@@ -1,3 +1,6 @@
+import Faqs from "./Faqs";
+import "../scss/faqs.scss";
+
 const Section1 = () => {
 	return (
 		<div className="shopify-section">
@@ -25,10 +28,7 @@ const Section1 = () => {
 					className="plp-hero__wrapper relative"
 					style={{ backgroundColor: "#00cce8" }}>
 					<div className="plp-hero__inner flex flex-col-reverse md:flex-row justify-between">
-						<div
-							className="plp-hero__content flex flex-col justify-center items-start mx-[15px] mb-[35px] md:pt-14 md:pb-10 md:mx-[32px] lg:py-14 lg:mx-[50px] xl:mx-[60px] md:mb-0 aos-init aos-animate"
-							data-aos="fade-up"
-							data-aos-delay="300">
+						<div className="plp-hero__content flex flex-col justify-center items-start mx-[15px] mb-[35px] md:pt-14 md:pb-10 md:mx-[32px] lg:py-14 lg:mx-[50px] xl:mx-[60px] md:mb-0 aos-init aos-animate">
 							<h1 className="h2 plp-hero__title">Cordless Stick Vacuums</h1>
 							<div className="p1 mt-[6px] plp-hero__description">
 								<p>
@@ -38,11 +38,29 @@ const Section1 = () => {
 									home looking spotless in no time.
 								</p>
 								{/* NEW BY TODD - START */}
-								<a
-									href="https://blackanddecker-prod.myshopify.com/pages/vacuum-finder"
-									class="btn-secondary mt-4">
+
+								<a href="#top" class="btn-secondary mt-4">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="48"
+										height="48"
+										viewBox="0 96 960 960"
+										className="inline-block">
+										<path d="m288 780-42-42 131-132H80v-60h297L246 414l42-42 204 204-204 204Zm252-14v-60h340v60H540Zm0-320v-60h340v60H540Zm120 160v-60h220v60H660Z" />
+									</svg>
 									Learn More
 								</a>
+
+								<div
+									className="hidden relative md:fixed test top-0 left-0 md:h-full md:w-full"
+									style={{
+										zIndex: 1001,
+									}}>
+									<div className="m-0 p-6 max-w-2xl bg-white md:h-full overflow-scroll">
+										<Faqs />
+									</div>
+								</div>
+
 								{/* NEW BY TODD - END */}
 							</div>
 						</div>

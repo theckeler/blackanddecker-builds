@@ -9,30 +9,7 @@ const Section2 = () => {
 				picked-facets=""
 				price-sorting="false">
 				<div class="grid grid-cols-3 lg:grid-cols-4 md:gap-4 lg:gap-8 xl:gap-10 container pt-[40px] md:pt-[60px] xl:pt-[68px]">
-					<div
-						class="fixed flex lg:block justify-end right-0 top-0 h-screen w-full translate-x-[100%] [&amp;.open]:translate-x-0 z-30 lg:relative lg:translate-x-0 lg:w-auto md:h-auto js-plp-sidebar aos-init aos-animate"
-						data-aos="fade-up">
-						<div class="fixed w-full h-full inset-0 bg-black-20 lg:hidden"></div>
-						<button
-							class="absolute top-2 right-[293px] sm:right-[302px] lg:left-[320px] lg:top-3 bg-white rounded-full w-[18px] h-[18px] lg:w-6 lg:h-6 overflow-hidden flex justify-center items-center lg:hidden"
-							type="button"
-							aria-label="Close">
-							<div class="icon inline-flex justify-center items-center text-black bg-white w-[8px] h-[8px] lg:w-3 lg:h-3 z-10">
-								<svg
-									viewBox="0 0 13 13"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M0.887695 0.868164L12.2861 12.2661"
-										stroke="currentColor"></path>
-									<path
-										d="M12.2861 0.868164L0.887695 12.2661"
-										stroke="currentColor"></path>
-								</svg>
-							</div>
-						</button>
-						<div class="px-4 py-5 bg-white w-[267px] z-20 lg:w-auto lg:p-0 xl:max-w-[235px] h-screen overflow-auto lg:h-auto lg:overflow-visible"></div>
-					</div>
+				
 					<div class="col-span-3">
 						<div
 							class="flex flex-col md:flex-row md:justify-between pb-3 mb-1 border-b border-light-grey aos-init aos-animate"
