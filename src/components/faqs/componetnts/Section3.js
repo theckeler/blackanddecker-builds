@@ -7,7 +7,7 @@ const Section3 = () => {
 					data-aos="fade-up">
 					<div className="container">
 						<hr className="border-t border-dark-grey pb-8 lg:pb-10 xl:pb-14" />
-						<div className data-module="rich-text">
+						<div data-module="rich-text">
 							<h2 className="h2">Recently Viewed</h2>
 						</div>
 					</div>

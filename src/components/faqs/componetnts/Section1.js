@@ -2,6 +2,11 @@ import Faqs from "./Faqs";
 import "../scss/faqs.scss";
 
 const Section1 = () => {
+	const faqClick = (e) => {
+		e.preventDefault();
+		document.querySelector("#faqs").classList.toggle("hidden");
+	};
+
 	return (
 		<div className="shopify-section">
 			<section className="plp-hero relative">
@@ -39,26 +44,46 @@ const Section1 = () => {
 								</p>
 								{/* NEW BY TODD - START */}
 
-								<a href="#top" class="btn-secondary mt-4">
+								<button
+									className="btn-secondary mt-4 whitespace-nowrap"
+									onClick={(e) => faqClick(e)}>
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										width="48"
 										height="48"
 										viewBox="0 96 960 960"
-										className="inline-block">
+										className="mr-2">
 										<path d="m288 780-42-42 131-132H80v-60h297L246 414l42-42 204 204-204 204Zm252-14v-60h340v60H540Zm0-320v-60h340v60H540Zm120 160v-60h220v60H660Z" />
 									</svg>
 									Learn More
-								</a>
+								</button>
 
 								<div
-									className="hidden relative md:fixed test top-0 left-0 md:h-full md:w-full"
+									className="hidden relative md:fixed test top-0 left-0 md:h-full bg-white p-4 rounded-lg md:rounded-none mt-3 md:mt-0 mb-0"
+									id="faqs"
 									style={{
 										zIndex: 1001,
+										width: "100%",
+										maxWidth: "724px",
+										borderRight: ".3em solid #e5e7eb",
 									}}>
-									<div className="m-0 p-6 max-w-2xl bg-white md:h-full overflow-scroll">
-										<Faqs />
+									<div className="flex">
+										<h3 className="h3">FAQS:</h3>
+										<button
+											className="ml-auto"
+											style={{ maxWidth: "3em" }}
+											onClick={(e) => faqClick(e)}>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												height="48"
+												viewBox="0 96 960 960"
+												width="48">
+												<path d="m336 762 144-144 144 144 42-42-144-144 144-144-42-42-144 144-144-144-42 42 144 144-144 144 42 42ZM180 936q-24 0-42-18t-18-42V276q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600V276H180v600Zm0-600v600-600Z" />
+											</svg>
+										</button>
 									</div>
+
+									<Faqs />
 								</div>
 
 								{/* NEW BY TODD - END */}
@@ -73,7 +98,7 @@ const Section1 = () => {
       ">
 							<picture data-module="responsive-image">
 								<source
-									srcset="https://cld.accentuate.io/411630764253/1664404037230/StickVac_CatCard_600x350.png?v=1664513993796&amp;options=w300"
+									srcSet="https://cld.accentuate.io/411630764253/1664404037230/StickVac_CatCard_600x350.png?v=1664513993796&amp;options=w300"
 									media="(min-resolution: 200dpi), (-webkit-min-device-pixel-ratio: 2)"
 								/>
 
@@ -95,7 +120,7 @@ const Section1 = () => {
 								<div className="absolute inset-0 z-0">
 									<picture data-module="responsive-image">
 										<source
-											srcset="https://cld.accentuate.io/411630764253/1664404037230/StickVac_CatCard_600x350.png?v=1664513993796&amp;options=w300"
+											srcSet="https://cld.accentuate.io/411630764253/1664404037230/StickVac_CatCard_600x350.png?v=1664513993796&amp;options=w300"
 											media="(min-resolution: 200dpi), (-webkit-min-device-pixel-ratio: 2)"
 										/>
 
@@ -112,7 +137,7 @@ const Section1 = () => {
 
 									<picture data-module="responsive-image">
 										<source
-											srcset="https://cld.accentuate.io/411630764253/1664404037230/StickVac_CatCard_600x350.png?v=1664513993796&amp;options=w300"
+											srcSet="https://cld.accentuate.io/411630764253/1664404037230/StickVac_CatCard_600x350.png?v=1664513993796&amp;options=w300"
 											media="(min-resolution: 200dpi), (-webkit-min-device-pixel-ratio: 2)"
 										/>
 
