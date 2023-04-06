@@ -1,13 +1,13 @@
-import Section1 from "./componetnts/Section1";
-import Section2 from "./componetnts/Section2";
-import Section3 from "./componetnts/Section3";
+import CatSection1 from "./componetnts/CatSection1";
+import CatSection2 from "./componetnts/CatSection2";
+import CatSection3 from "./componetnts/CatSection3";
 
 const App = () => {
 	return (
 		<>
-			<Section1 />
-			<Section2 />
-			<Section3 />
+			<CatSection1 />
+			<CatSection2 />
+			<CatSection3 />
 		</>
 	);
 };

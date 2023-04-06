@@ -3,13 +3,13 @@ import { Routes, Route } from "react-router-dom";
 import "../scss/main.scss";
 
 import Home from "./Home";
-import Faqs from "./faqs/Faqs";
+import FaqsIndex from "./faqs/Index";
 
 const Index = () => {
 	return (
 		<Routes>
 			<Route path="/" element={<Home />} />
-			<Route path="/faqs" element={<Faqs />} />
+			<Route path="/faqs/*" element={<FaqsIndex />} />
 		</Routes>
 	);
 };
