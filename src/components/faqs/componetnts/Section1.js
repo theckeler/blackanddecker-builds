@@ -65,7 +65,7 @@ const Section1 = () => {
 										zIndex: 1001,
 										width: "100%",
 										maxWidth: "724px",
-										borderRight: ".3em solid #e5e7eb",
+										//borderRight: ".3em solid #e5e7eb",
 									}}>
 									<div className="flex">
 										<h3 className="h3">FAQS:</h3>
