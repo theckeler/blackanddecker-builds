@@ -7,7 +7,6 @@ const Section3 = () => {
 	};
 
 	const ulCSS = "list-disc px-6";
-	const liCSS = "mb-2";
 
 	return (
 		<div className="shopify-section overflow-hidden section-recently-view">

@@ -1177,10 +1177,6 @@ const PDPSection2 = () => {
 									Slow down feeding with this specially designed bowl. Made from
 									food safe materials. One size for all animals.&nbsp; Black.
 								</p>
-								<h1
-									className="b lh-copy dark-gray mt1 mb2 f3"
-									itemProp="name"
-								/>
 							</div>
 							<div className="product-details__accordion">
 								<accordion-list className=" accordion--product-details">
@@ -1327,6 +1323,15 @@ const PDPSection2 = () => {
 													</div>
 												</div>
 											</li>
+											<li className="accordion__item js-item wysiwyg--pdp wysiwyg--pdp-features">
+												<a
+													className="text-left accordion__btn js-btn"
+													href="#faqs">
+													Product Q&A
+													<span className="absolute -top-4 left-0 w-full h-[calc(100%+30px)]" />
+													<span className="accordion__icon" />
+												</a>
+											</li>
 										</ul>
 									</div>
 								</accordion-list>
@@ -1423,7 +1428,6 @@ const PDPSection2 = () => {
 														min={1}
 														defaultValue={1}
 													/>
-												
 												</form>
 											</product-form>
 										</div>

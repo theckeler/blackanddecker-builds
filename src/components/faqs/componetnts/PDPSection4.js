@@ -2,7 +2,7 @@ const PDPSection4 = () => {
 	return (
 		<div
 			id="shopify-section-template--16628590739677__1660855399a59e2ef0"
-			className="shopify-section section-anchor-nav">
+			className="shopify-section">
 			<div className="block border-b border-black-20 bg-white bg-light-blue">
 				<div className="container">
 					<ul
