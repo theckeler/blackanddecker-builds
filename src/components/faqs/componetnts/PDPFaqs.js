@@ -35,6 +35,7 @@ const Section3 = () => {
 							</button>
 
 							<div className="w-full hidden w-full" id="ask-question">
+								<hr className="w-full mt-5" />
 								<ul className="flex flex-col mt-4 mx-auto max-w-2xl">
 									<li className="">
 										<div className="w-full flex flex-col mx-auto p-6 wysiwyg">
@@ -118,8 +119,8 @@ const Section3 = () => {
 										</form>
 									</li>
 								</ul>
+								<hr className="w-full mt-5" />
 							</div>
-							<hr className="w-full mt-5" />
 						</div>
 
 						<div
