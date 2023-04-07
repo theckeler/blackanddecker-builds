@@ -38,10 +38,10 @@ const Section3 = () => {
 								<ul className="flex flex-col mt-4 mx-auto max-w-2xl">
 									<li className="">
 										<div className="w-full flex flex-col mx-auto p-6 wysiwyg">
-											<h3 className="h3 text-center">
+											<h3 className="h3">
 												Do you have a question about a Black and Decker product?
 											</h3>
-											<p className="mt-3 text-center">
+											<p className="mt-3">
 												Our team is here to help! Whether you're wondering about
 												the features of a power tool, the capacity of a kitchen
 												appliance, or the runtime of a cordless vacuum, we're
