@@ -122,9 +122,7 @@ const Section3 = () => {
 							</div>
 						</div>
 
-						<div
-							className="md:h-full overflow-scroll m-0 mt-3 max-w-6xl mb-8 mx-auto"
-							style={{ maxHeight: "calc(100vh - 100px)" }}>
+						<div className="m-0 mt-3 max-w-6xl mb-8 mx-auto">
 							<div>
 								<ul className="faq border rounded-lg py-2 px-4">
 									<li className="question">
