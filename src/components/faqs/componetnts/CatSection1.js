@@ -1,4 +1,4 @@
-import Faqs from "./Faqs";
+import Faqs from "./CatFaqs";
 import "../scss/faqs.scss";
 
 const Section1 = () => {
@@ -59,7 +59,7 @@ const Section1 = () => {
 								</button>
 
 								<div
-									className="hidden relative md:fixed test top-0 right-0 md:h-full bg-white p-4 rounded-lg md:rounded-none mt-3 md:mt-0 mb-0 w-screen"
+									className="hidden relative md:fixed top-0 right-0 md:h-full bg-white p-4 rounded-lg md:rounded-none mt-3 md:mt-0 mb-0 w-screen"
 									id="faqs"
 									style={{
 										zIndex: 1001,

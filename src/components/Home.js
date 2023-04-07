@@ -15,8 +15,17 @@ const Home = () => {
 			}}>
 			<h1 style={{ textTransform: "uppercase" }}>TB Page Builds:</h1>
 			<ul className="home-list">
-				<li>
-					<Link to="/faqs">Faqs</Link>
+				<li style={{ marginTop: "20px" }}>
+					<strong>Faqs:</strong>
+					<ul>
+						<li>
+							<Link to="/faqs">Collection</Link>
+						</li>
+
+						<li>
+							<Link to="/faqs/pdp">PDP</Link>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</div>
