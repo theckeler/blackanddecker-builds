@@ -40,23 +40,14 @@ const Section1 = () => {
 									Choose a powerful cordless stick vacuum cleaner by
 									BLACK+DECKER® and experience convenience at your
 									fingertips.&nbsp; Our cordless vacuum lineup will have your
-									home looking spotless in no time.
+									home looking spotless in no time.{" "}
+									<button
+										className="whitespace-nowrap underline font-bold"
+										onClick={(e) => faqClick(e)}>
+										Learn More &gt;
+									</button>
 								</p>
 								{/* NEW BY TODD - START */}
-
-								<button
-									className="btn-secondary mt-4 whitespace-nowrap"
-									onClick={(e) => faqClick(e)}>
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										width="48"
-										height="48"
-										viewBox="0 96 960 960"
-										className="mr-2">
-										<path d="m288 780-42-42 131-132H80v-60h297L246 414l42-42 204 204-204 204Zm252-14v-60h340v60H540Zm0-320v-60h340v60H540Zm120 160v-60h220v60H660Z" />
-									</svg>
-									Learn More
-								</button>
 
 								<div
 									className="hidden relative md:fixed top-0 right-0 md:h-full bg-white p-4 rounded-lg md:rounded-none mt-3 md:mt-0 mb-0 w-screen"
@@ -65,20 +56,23 @@ const Section1 = () => {
 										zIndex: 1001,
 										width: "100%",
 										maxWidth: "724px",
-										//borderRight: ".3em solid #e5e7eb",
 									}}>
 									<div className="flex">
-										<h3 className="h3">FAQS:</h3>
+										<h3 className="capitalize h3">FAQS:</h3>
 										<button
 											className="ml-auto"
-											style={{ maxWidth: "3em" }}
+											style={{ maxWidth: "1em" }}
 											onClick={(e) => faqClick(e)}>
 											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												height="48"
-												viewBox="0 96 960 960"
-												width="48">
-												<path d="m336 762 144-144 144 144 42-42-144-144 144-144-42-42-144 144-144-144-42 42 144 144-144 144 42 42ZM180 936q-24 0-42-18t-18-42V276q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600V276H180v600Zm0-600v600-600Z" />
+												viewBox="0 0 13 13"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M0.887695 0.868164L12.2861 12.2661"
+													stroke="currentColor"></path>
+												<path
+													d="M12.2861 0.868164L0.887695 12.2661"
+													stroke="currentColor"></path>
 											</svg>
 										</button>
 									</div>

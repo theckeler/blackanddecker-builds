@@ -1,8 +1,10 @@
 const Question = ({ title }) => {
 	const faqOpen = (e) => {
 		e.preventDefault();
-		e.stopPropagation();
-		e.currentTarget.parentElement.nextElementSibling.classList.toggle("hidden");
+		const parentE = e.currentTarget.parentElement;
+		console.log(e.currentTarget.parentElement);
+		parentE.querySelector(".icon-plus").classList.toggle("rotate-45");
+		parentE.nextElementSibling.classList.toggle("hidden");
 	};
 
 	return (
@@ -11,19 +13,12 @@ const Question = ({ title }) => {
 			onClick={(e) => {
 				faqOpen(e);
 			}}>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				height="48"
-				width="48"
-				viewBox="0 96 960 960"
-				className="w-auto inline-block mr-2 select-none"
-				style={{ maxWidth: "32px" }}>
-				<path
-					d="M185 871V600h91v180h180v91H185Zm500-320V371H505v-91h271v271h-91Z"
-					fill="#aaaaaa"
-				/>
-			</svg>
 			<span className="text-left select-none">{title}</span>
+			<span className="ml-auto w-6 icon-plus">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+					<path d="M450 856V606H200v-60h250V296h60v250h250v60H510v250h-60Z" />
+				</svg>
+			</span>
 		</button>
 	);
 };
