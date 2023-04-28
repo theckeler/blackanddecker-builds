@@ -1,14 +1,14 @@
-import Section1 from "./componetnts/PDPSection1";
-import Section2 from "./componetnts/PDPSection2";
-import Section3 from "./componetnts/PDPSection3";
-import Section4 from "./componetnts/PDPSection4";
-import Section5 from "./componetnts/PDPSection5";
-import Section6 from "./componetnts/PDPSection6";
-import Section7 from "./componetnts/PDPSection7";
-import Section8 from "./componetnts/PDPSection8";
-import Section9 from "./componetnts/PDPSection9";
-import RecentlyViewed from "./componetnts/CatSection3";
-import PDPFaqs from "./componetnts/PDPFaqs";
+import Section1 from "./components/PDPSection1";
+import Section2 from "./components/PDPSection2";
+import Section3 from "./components/PDPSection3";
+import Section4 from "./components/PDPSection4";
+import Section5 from "./components/PDPSection5";
+import Section6 from "./components/PDPSection6";
+import Section7 from "./components/PDPSection7";
+import Section8 from "./components/PDPSection8";
+import Section9 from "./components/PDPSection9";
+import RecentlyViewed from "./components/CatSection3";
+import PDPFaqs from "./components/PDPFaqs";
 
 const App = () => {
 	return (

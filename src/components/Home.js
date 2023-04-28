@@ -27,6 +27,13 @@ const Home = () => {
 						</li>
 					</ul>
 				</li>
+				<li style={{ marginTop: "20px" }}>
+					<strong>
+						<Link to="/contact-us-form" className="underline">
+							Contact Us Form
+						</Link>
+					</strong>
+				</li>
 			</ul>
 		</div>
 	);

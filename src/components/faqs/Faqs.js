@@ -1,6 +1,6 @@
-import CatSection1 from "./componetnts/CatSection1";
-import CatSection2 from "./componetnts/CatSection2";
-import CatSection3 from "./componetnts/CatSection3";
+import CatSection1 from "./components/CatSection1";
+import CatSection2 from "./components/CatSection2";
+import CatSection3 from "./components/CatSection3";
 
 const App = () => {
 	return (
