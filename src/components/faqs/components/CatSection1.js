@@ -44,7 +44,7 @@ const Section1 = () => {
 									<button
 										className="whitespace-nowrap underline font-bold"
 										onClick={(e) => faqClick(e)}>
-										Learn More &gt;
+										Cordless Stick Vacuums FAQs &gt;
 									</button>
 								</p>
 								{/* NEW BY TODD - START */}
