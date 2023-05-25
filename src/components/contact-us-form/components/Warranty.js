@@ -59,16 +59,34 @@ export default function Warranty() {
 				<li>
 					<input type="text" className="required w-full" />
 				</li>
-				<li className="mt-4 mb-2">
-					<p>
+				<li className="mt-4 mb-4">
+					<p className="mb-2 text-sm">
 						To provide a faster resolution, please provide us with any of the
 						following two options to validate the warranty on your product{" "}
 						<sup className="text-red">*</sup>
 					</p>
 
+					<ul>
+						<li>
+							<select
+								id="request-type"
+								className="w-full"
+								onChange={(e) => {
+									SelectChange(e, ["warranty-receipt", "warranty-date-code"]);
+								}}>
+								<option value="" defaultChecked>
+									Select One
+								</option>
+								<option value="warranty-receipt">Proof of purchase</option>
+								<option value="warranty-date-code">Date Code</option>
+							</select>
+						</li>
+					</ul>
+
 					<ul
-						className="w-full p-4 mt-2"
-						style={{ backgroundColor: "#d4f5f0" }}>
+						className="w-full p-4 mt-2 hidden"
+						id="warranty-receipt-options"
+						style={{ backgroundColor: "#D4F5F0" }}>
 						<li className="font-bold">
 							Proof of purchase (Button to upload the receipt)
 							<sup className="text-red">*</sup>
@@ -77,9 +95,11 @@ export default function Warranty() {
 							<input type="file" className="required w-full" />
 						</li>
 					</ul>
+
 					<ul
-						className="w-full p-4 mt-2"
-						style={{ backgroundColor: "#d4f5f0" }}>
+						className="w-full p-4 mt-2 hidden"
+						id="warranty-date-code-options"
+						style={{ backgroundColor: "#D4F5F0" }}>
 						<li className="font-bold">
 							Date Code
 							<sup className="text-red">*</sup>
@@ -104,17 +124,13 @@ export default function Warranty() {
 							/>
 						</li>
 					</ul>
-					<ul
-						className="w-full p-4 mt-2"
-						style={{ backgroundColor: "#d4f5f0" }}>
-						<li className="font-bold">
-							Date of Purchase
-							<sup className="text-red">*</sup>
-						</li>
-						<li className="mt-2">
-							<input type="text" className="required w-full" />
-						</li>
-					</ul>
+				</li>
+				<li className="font-bold">
+					Date of Purchase
+					<sup className="text-red">*</sup>
+				</li>
+				<li className="mt-2">
+					<input type="text" className="required w-full" />
 				</li>
 				<li className="mt-8 mb-2 font-bold">
 					Did you follow the troubleshooting steps described in the instruction

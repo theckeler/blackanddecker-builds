@@ -2,7 +2,7 @@ import SelectChange from "../functions/SelectChange";
 
 export default function General() {
 	return (
-		<>
+		<div className="p-4" style={{ backgroundColor: "#baeef6" }}>
 			<h2 className="h4 pb-2 mb-2 border-b">General Inquiries/Others</h2>
 
 			<ul>
@@ -31,6 +31,6 @@ export default function General() {
 					</select>
 				</li>
 			</ul>
-		</>
+		</div>
 	);
 }

@@ -130,10 +130,6 @@ const App = () => {
 						</select>
 					</li>
 
-					<li>
-						<Address />
-					</li>
-
 					{/* Warranty */}
 					<li className="main-option hidden mt-8" id="warranty-options">
 						<Warranty />
@@ -157,6 +153,10 @@ const App = () => {
 					{/* Orders */}
 					<li className="main-option hidden mt-8" id="orders-options">
 						<Orders />
+					</li>
+
+					<li>
+						<Address />
 					</li>
 
 					<li className="hidden mt-8 mb-2 font-bold after-input">
