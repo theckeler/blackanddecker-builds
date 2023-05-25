@@ -32,15 +32,32 @@ const App = () => {
 						<label
 							htmlFor="edit-name"
 							className="js-form-required form-required font-bold">
-							Name <sup className="text-red">*</sup>
+							First Name <sup className="text-red">*</sup>
 						</label>
 					</li>
 					<li>
 						<input
 							type="text"
 							id="edit-name"
-							name="name"
+							name="last-name"
 							className="required w-full"
+							//	placeholder="Last Name"
+						/>
+					</li>
+					<li className="mt-4 mb-2">
+						<label
+							htmlFor="edit-name"
+							className="js-form-required form-required font-bold">
+							Last Name <sup className="text-red">*</sup>
+						</label>
+					</li>
+					<li>
+						<input
+							type="text"
+							id="edit-name"
+							name="last-name"
+							className="required w-full"
+							//	placeholder="Last Name"
 						/>
 					</li>
 					<li className="mt-4 mb-2">
@@ -149,10 +166,51 @@ const App = () => {
 					<li className="hidden mt-8 after-input">
 						<textarea className="w-full" rows="8"></textarea>
 					</li>
-					<li className="hidden mt-8 font-bold after-input">
-						<input type="checkbox" className="mr-2" />
-						Check Terms and Conditions
-						<sup className="text-red">*</sup>
+					<li className="hidden mt-8 after-input">
+						<ul className="flex">
+							<li>
+								<input type="checkbox" className="mr-2" />
+							</li>
+							<li>
+								<p className="font-bold">
+									Check Terms and Conditions
+									<sup className="text-red">*</sup>
+								</p>
+								<p className="text-xs">
+									I certify that I have read the{" "}
+									<a
+										href="https://www.stanleyblackanddecker.com/privacy-policy/global-privacy-policy"
+										className="underline">
+										information
+									</a>{" "}
+									provided by Stanley Black &amp; Decker
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li className="hidden mt-8 after-input">
+						<ul className="flex">
+							<li>
+								<input type="checkbox" className="mr-2" />
+							</li>
+							<li>
+								<p className="font-bold">
+									I consent to the processing of personal data for direct
+									marketing activities, for sending of commercial, promotional
+									and advertising communications by the data controller.
+								</p>
+								<p className="text-xs">
+									You can unsubscribe at any time. For more information please
+									visit our{" "}
+									<a
+										href="https://www.stanleyblackanddecker.com/privacy-policy/global-privacy-policy"
+										className="underline">
+										Privacy Policy
+									</a>
+									.
+								</p>
+							</li>
+						</ul>
 					</li>
 					<li className="mt-8">
 						<button

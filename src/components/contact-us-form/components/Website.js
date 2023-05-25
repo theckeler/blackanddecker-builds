@@ -2,7 +2,7 @@ import SelectChange from "../functions/SelectChange";
 
 export default function Website() {
 	return (
-		<div className="p-4" style={{ backgroundColor: "#e3e3e3" }}>
+		<div className="p-4" style={{ backgroundColor: "#baeef6" }}>
 			<h2 className="h4 pb-2 mb-2 border-b">Website Related</h2>
 
 			<ul>
