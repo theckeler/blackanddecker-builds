@@ -300,3 +300,9 @@
 .hide {
 	display: none;
 }
+
+@media (min-width: 768px) {
+	.md\:fixed {
+		position: fixed;
+	}
+}

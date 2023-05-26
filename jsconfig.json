@@ -5,7 +5,8 @@
 			"@/*": ["./*"],
 			"@/components/*": ["./components/*"],
 			"@/templates/*": ["./templates/*"],
-			"@/functions/*": ["./functions/*"]
+			"@/functions/*": ["./functions/*"],
+			"@/scss/*": ["./scss/*"]
 		}
 	},
 	"include": ["app/index.js", "app/*.js", "**/[*].js", "**/*.js"],
