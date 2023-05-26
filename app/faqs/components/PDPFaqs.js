@@ -42,14 +42,15 @@ const Section3 = () => {
 												Do you have a question about a Black and Decker product?
 											</h3>
 											<p className="mt-3">
-												Our team is here to help! Whether you're wondering about
-												the features of a power tool, the capacity of a kitchen
-												appliance, or the runtime of a cordless vacuum, we're
-												happy to provide you with accurate and helpful
-												information. Simply submit your question and we'll get
-												back to you as soon as we can. Our goal is to ensure you
-												have a seamless shopping experience and make informed
-												purchase decisions for all your Black and Decker needs.
+												Our team is here to help! Whether you&apos;re wondering
+												about the features of a power tool, the capacity of a
+												kitchen appliance, or the runtime of a cordless vacuum,
+												we&apos;re happy to provide you with accurate and
+												helpful information. Simply submit your question and
+												we&apos;ll get back to you as soon as we can. Our goal
+												is to ensure you have a seamless shopping experience and
+												make informed purchase decisions for all your Black and
+												Decker needs.
 											</p>
 										</div>
 									</li>
