@@ -1,7 +1,13 @@
 {
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./*"]
-    }
-  }
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./*"],
+			"@/components/*": ["./components/*"],
+			"@/templates/*": ["./templates/*"],
+			"@/functions/*": ["./functions/*"]
+		}
+	},
+	"include": ["app/index.js", "app/*.js", "**/[*].js", "**/*.js"],
+	"exclude": ["node_modules"]
 }

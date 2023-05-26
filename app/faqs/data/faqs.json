@@ -1,0 +1,129 @@
+{
+	"section1": {
+		"h1": "Help & Support",
+		"copy": "We provide value to our Troy-Bilt owners with support content to help you feel confident to tackle simple tasks or advice to extend the lifetime of your machine "
+	},
+	"section2": {
+		"blocks": [
+			{
+				"img": "iconBelt",
+				"title": "How to Change the Deck Belt on a Riding Mower",
+				"url": "https://www.troybilt.com/en_US/knowledge-tb-how-to-change-the-deck-belt-on-a-troy-bilt-riding-mower.html"
+			},
+			{
+				"img": "iconBlades",
+				"title": "How to Change the Blades on a Riding Mower",
+				"url": "https://www.troybilt.com/en_US/knowledge-tb-how-to-change-the-blade-on-your-troy-bilt-rider.html"
+			},
+			{
+				"img": "iconLevel",
+				"title": "How to Level the Deckon a Riding Mower",
+				"url": "https://www.troybilt.com/en_US/How+Do+I+Level+the+Deck+on+My+Riding+Mower%3F.html"
+			}
+		],
+		"button": {
+			"copy": "See all how-to content",
+			"url": "https://www.troybilt.com/en_US/knowledge-center/"
+		}
+	},
+	"section3": {
+		"findOrder": {
+			"h2": "Find Your Order",
+			"copy": "Track the status of your order."
+		},
+		"findModel": {
+			"h2": "Find Support by Model",
+			"copy": "Your model number is essential to finding the right replacement parts, product manuals, or locating parts on your machine."
+		}
+	},
+	"section4": {
+		"h2": "Don't have an account?",
+		"copy": "Find information related to your mower with ease when you <a href=\"https://www.troybilt.com/en_US/login\" class=\"link-white\">create an account</a> and <a href=\"https://www.troybilt.com/en_US/registration.html\" class=\"link-white\">register your mower</a>. Benefits include: Proof of purchase for insurance, find warranty information, view safety information and get timely maintenance reminders."
+	},
+	"section5": {
+		"h2": "Popular Help Links",
+		"blocks": [
+			{
+				"img": "iconMagGlassBolt",
+				"copy": "Search parts for your machine or view diagrams",
+				"url": "https://www.troybilt.com/en_US/service-and-parts",
+				"button": {
+					"copy": "Find parts"
+				}
+			},
+			{
+				"img": "iconManuals",
+				"copy": "Use your model number to download your Operator’s Manual",
+				"url": "https://www.troybilt.com/en_US/operatorsmanuals",
+				"button": {
+					"copy": "Find manuals"
+				}
+			},
+			{
+				"img": "iconScrewdriverWrench",
+				"copy": "Find a licensed mechanic at a service center near you ",
+				"url": "https://www.troybilt.com/on/demandware.store/Sites-troybilt-Site/en_US/Stores-FindService",
+				"button": {
+					"copy": "Find service"
+				}
+			},
+			{
+				"img": "iconAward",
+				"copy": "Register your Troy-Bilt equipment",
+				"url": "https://www.troybilt.com/en_US/registration.html",
+				"button": {
+					"copy": "Registration"
+				}
+			}
+		]
+	},
+	"section6": {
+		"h2": "Find Support by Model",
+		"blocks": [
+			{
+				"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw26941dc0/products/Equipment/Troy-Bilt_Bronco46K_2000x2000_1.jpg?sw=1000&sh=1000&sm=fit",
+				"title": "Lawn Mowers",
+				"url": "https://www.troybilt.com/en_US/riding-mower/"
+			},
+			{
+				"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwc4e99be2/products/Equipment/Troy-Bilt_MustangZ54_2000x2000_6.jpg?sw=1000&sh=1000&sm=fit",
+				"title": "Zero-Turn",
+				"url": "https://www.troybilt.com/en_US/riding-mower/"
+			},
+			{
+				"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw93aa9e08/products/Equipment/Troy-Bilt_TB230BXP_2000x2000_6.jpg?sw=1000&sh=1000&sm=fit",
+				"title": "Walk-Behind Mowers",
+				"url": "https://www.troybilt.com/en_US/walk-behind-mower/"
+			},
+			{
+				"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw853c35dc/products/Equipment/Troy-Bilt_SuperBroncoCRT_2000x2000_10.jpg?sw=1000&sh=1000&sm=fit",
+				"title": "Tillers",
+				"url": "https://www.troybilt.com/en_US/tillers/"
+			},
+			{
+				"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwe732a9dd/products/Equipment/Troy-Bilt_CSV070B_3.jpg?sw=1000&sh=1000&sm=fit",
+				"title": "Chipper Shredders",
+				"url": "https://www.troybilt.com/en_US/chipper-shredders/"
+			},
+			{
+				"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw87e9edff/products/Equipment/Troy-Bilt_TB51BP_2000x2000_1.jpg?sw=1000&sh=1000&sm=fit",
+				"title": "Leaf Blowers",
+				"url": "https://www.troybilt.com/en_US/leaf-blowers/"
+			},
+			{
+				"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwad09d29f/products/Equipment/Troy-Bilt_Vortex%202610_13.jpg?sw=1000&sh=1000&sm=fit",
+				"title": "Snow",
+				"url": "https://www.troybilt.com/en_US/snow-how-to/"
+			},
+			{
+				"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwede3d406/products/Attachments_Accessories/19A30031OEM_1.jpg?sw=1000&sh=1000&sm=fit",
+				"title": "Attachments",
+				"url": "https://www.troybilt.com/en_US/service-and-parts#attachments"
+			}
+		]
+	},
+	"section7": {
+		"h2": "Didn’t Find What You Were Looking For?",
+		"copy": "Our team is available between 8:30AM - 5:30PM ET, Monday-Friday."
+	}
+}
