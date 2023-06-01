@@ -130,9 +130,9 @@ export default function ContactForm() {
 							<option value="warranty">Warranty Related</option>
 							<option value="website">Website Related</option>
 							<option value="info">Product Information</option>
-							<option value="general">General Inquiries/Others</option>
+							<option value="general">General Inquiries/Other</option>
 							<option value="orders">
-								Support for orders placed throughblackanddecker.com
+								Support for orders placed through blackanddecker.com
 							</option>
 						</select>
 					</li>
