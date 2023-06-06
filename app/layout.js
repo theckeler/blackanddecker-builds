@@ -3,7 +3,7 @@ import Header from "@/templates/Header";
 import Footer from "@/templates/Footer";
 
 export const metadata = {
-	title: "B&D Biulds",
+	title: "B&D Builds",
 	description: "Nothing to see here",
 };
 
