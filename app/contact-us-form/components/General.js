@@ -3,7 +3,7 @@ import selectChange from "../functions/selectChange";
 export default function General() {
 	return (
 		<div className="p-4" style={{ backgroundColor: "#baeef6" }}>
-			<h2 className="h4 pb-2 mb-2 border-b">General Inquiries/Others</h2>
+			<h2 className="h4 pb-2 mb-2 border-b">General Inquiries/Other</h2>
 
 			<ul>
 				<li className=" mt-4 mb-2">

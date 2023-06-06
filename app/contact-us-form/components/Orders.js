@@ -2,7 +2,7 @@ export default function Orders() {
 	return (
 		<div className="p-4" style={{ backgroundColor: "#baeef6" }}>
 			<h2 className="h4 pb-2 mb-2 border-b">
-				Support for orders placed throughblackanddecker.com
+				Support for orders placed through blackanddecker.com
 			</h2>
 
 			<ul>
