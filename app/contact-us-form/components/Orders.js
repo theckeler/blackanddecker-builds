@@ -34,7 +34,7 @@ export default function Orders() {
 				</li>
 				<li className="mt-4 mb-2">
 					<label className="js-form-required form-required font-bold">
-						Order Number Related
+						Order Number
 					</label>
 				</li>
 				<li>

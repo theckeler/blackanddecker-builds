@@ -149,7 +149,7 @@ export default function Warranty() {
 			<ul className="hidden" id="warranty-status-options">
 				<li className=" mt-4 mb-2">
 					<label className="js-form-required form-required font-bold">
-						Order Number
+						Order Number Related
 					</label>
 				</li>
 				<li>
