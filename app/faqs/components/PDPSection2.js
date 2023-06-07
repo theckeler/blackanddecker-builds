@@ -23,7 +23,7 @@ const PDPSection2 = () => {
 							</div>
 						</div>
 						<div className="product-main__header sm:hidden mb-5">
-							<div
+							{/* <div
 								className
 								data-bv-show="inline_rating"
 								data-bv-product-id={7851508170973}
@@ -288,7 +288,7 @@ const PDPSection2 = () => {
 										</div>
 									</a>
 								</div>
-							</div>
+							</div> */}
 							<h1 className="h4 mb-[8px]">
 								Slow Feeder Rocking Dog&nbsp;Bowl, One Size, Black
 							</h1>
@@ -714,7 +714,7 @@ const PDPSection2 = () => {
 							</div>
 						</div>
 						<div className="product-main__header hidden sm:block">
-							<div
+							{/* <div
 								className
 								data-bv-show="inline_rating"
 								data-bv-product-id={7851508170973}
@@ -979,7 +979,7 @@ const PDPSection2 = () => {
 										</div>
 									</a>
 								</div>
-							</div>
+							</div> */}
 							<h1 className="h3 sm:mb-[16px] xl:mb-[12px]">
 								Slow Feeder Rocking Dog&nbsp;Bowl, One Size, Black
 							</h1>
